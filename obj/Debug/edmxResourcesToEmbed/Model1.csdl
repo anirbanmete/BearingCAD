@@ -1,0 +1,905 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BearingDBModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="BearingDBEntities">
+    <EntitySet Name="tblData_Lube" EntityType="BearingDBModel.tblData_Lube" />
+    <EntitySet Name="tblData_Mat" EntityType="BearingDBModel.tblData_Mat" />
+    <EntitySet Name="tblDesign_DrainHole" EntityType="BearingDBModel.tblDesign_DrainHole" />
+    <EntitySet Name="tblDesign_Lining" EntityType="BearingDBModel.tblDesign_Lining" />
+    <EntitySet Name="tblDesign_Pad" EntityType="BearingDBModel.tblDesign_Pad" />
+    <EntitySet Name="tblDesign_Pad_Fillet" EntityType="BearingDBModel.tblDesign_Pad_Fillet" />
+    <EntitySet Name="tblDesign_Tol" EntityType="BearingDBModel.tblDesign_Tol" />
+    <EntitySet Name="tblManf_Drill" EntityType="BearingDBModel.tblManf_Drill" />
+    <EntitySet Name="tblManf_EDM" EntityType="BearingDBModel.tblManf_EDM" />
+    <EntitySet Name="tblManf_EndMill" EntityType="BearingDBModel.tblManf_EndMill" />
+    <EntitySet Name="tblManf_Fixture_Bearing_Splitting" EntityType="BearingDBModel.tblManf_Fixture_Bearing_Splitting" />
+    <EntitySet Name="tblManf_Fixture_SplitAndTurn" EntityType="BearingDBModel.tblManf_Fixture_SplitAndTurn" />
+    <EntitySet Name="tblManf_Pin" EntityType="BearingDBModel.tblManf_Pin" />
+    <EntitySet Name="tblManf_Pin_D" EntityType="BearingDBModel.tblManf_Pin_D" />
+    <EntitySet Name="tblManf_Screw" EntityType="BearingDBModel.tblManf_Screw" />
+    <EntitySet Name="tblManf_Screw_D" EntityType="BearingDBModel.tblManf_Screw_D" />
+    <EntitySet Name="tblManf_Screw_Head" EntityType="BearingDBModel.tblManf_Screw_Head" />
+    <EntitySet Name="tblMapping_Blank" EntityType="BearingDBModel.tblMapping_Blank" />
+    <EntitySet Name="tblMapping_Complete" EntityType="BearingDBModel.tblMapping_Complete" />
+    <EntitySet Name="tblMapping_Filter" EntityType="BearingDBModel.tblMapping_Filter" />
+    <EntitySet Name="tblMapping_Radial" EntityType="BearingDBModel.tblMapping_Radial" />
+    <EntitySet Name="tblMapping_Seal" EntityType="BearingDBModel.tblMapping_Seal" />
+    <EntitySet Name="tblMapping_TB_Assy" EntityType="BearingDBModel.tblMapping_TB_Assy" />
+    <EntitySet Name="tblMapping_TL_TB" EntityType="BearingDBModel.tblMapping_TL_TB" />
+    <EntitySet Name="tblMapping_XLRADIAL" EntityType="BearingDBModel.tblMapping_XLRADIAL" />
+    <EntitySet Name="tblMapping_XLThrust" EntityType="BearingDBModel.tblMapping_XLThrust" />
+    <EntitySet Name="tblProject_Bearing_Radial" EntityType="BearingDBModel.tblProject_Bearing_Radial" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_AntiRotPin" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_AntiRotPin" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_EDM_Pad" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_EDM_Pad" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_Flange" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_Flange" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_FlexurePivot" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_FlexurePivot" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_MillRelief" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_MillRelief" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_Mount" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_Mount" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_Mount_Fixture" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_Mount_Fixture" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_OilInlet" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_OilInlet" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_Pad" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_Pad" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_PerformData" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_PerformData" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_SL" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_SL" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_TempSensor" EntityType="BearingDBModel.tblProject_Bearing_Radial_FP_TempSensor" />
+    <EntitySet Name="tblProject_Details" EntityType="BearingDBModel.tblProject_Details" />
+    <EntitySet Name="tblProject_EndConfig_MountHoles" EntityType="BearingDBModel.tblProject_EndConfig_MountHoles" />
+    <EntitySet Name="tblProject_EndConfig_Seal" EntityType="BearingDBModel.tblProject_EndConfig_Seal" />
+    <EntitySet Name="tblProject_EndConfig_Seal_Blade" EntityType="BearingDBModel.tblProject_EndConfig_Seal_Blade" />
+    <EntitySet Name="tblProject_EndConfig_Seal_DrainHoles" EntityType="BearingDBModel.tblProject_EndConfig_Seal_DrainHoles" />
+    <EntitySet Name="tblProject_EndConfig_Seal_WireClipHoles" EntityType="BearingDBModel.tblProject_EndConfig_Seal_WireClipHoles" />
+    <EntitySet Name="tblProject_EndConfig_TB" EntityType="BearingDBModel.tblProject_EndConfig_TB" />
+    <EntitySet Name="tblProject_EndConfig_TB_FeedGroove" EntityType="BearingDBModel.tblProject_EndConfig_TB_FeedGroove" />
+    <EntitySet Name="tblProject_EndConfig_TB_GCodes" EntityType="BearingDBModel.tblProject_EndConfig_TB_GCodes" />
+    <EntitySet Name="tblProject_EndConfig_TB_PerformData" EntityType="BearingDBModel.tblProject_EndConfig_TB_PerformData" />
+    <EntitySet Name="tblProject_EndConfig_TB_WeepSlot" EntityType="BearingDBModel.tblProject_EndConfig_TB_WeepSlot" />
+    <EntitySet Name="tblProject_EndConfigs" EntityType="BearingDBModel.tblProject_EndConfigs" />
+    <EntitySet Name="tblProject_OpCond" EntityType="BearingDBModel.tblProject_OpCond" />
+    <EntitySet Name="tblProject_Product" EntityType="BearingDBModel.tblProject_Product" />
+    <EntitySet Name="tblProject_Product_Accessories" EntityType="BearingDBModel.tblProject_Product_Accessories" />
+    <EntitySet Name="tblUser" EntityType="BearingDBModel.tblUser" />
+  </EntityContainer>
+  <EntityType Name="tblData_Lube">
+    <Key>
+      <PropertyRef Name="fldType" />
+    </Key>
+    <Property Name="fldType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldAPI_sg" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTemp_a" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldCSt_a" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTemp_b" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldCSt_b" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblData_Mat">
+    <Key>
+      <PropertyRef Name="fldName" />
+    </Key>
+    <Property Name="fldName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldName_Abbrv" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCode_UNS" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCode_ProfitKey" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCode_Waukesha" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDensity" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldK" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLCTE" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldMod" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldBase" Type="Boolean" />
+    <Property Name="fldLining" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tblDesign_DrainHole">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldDShaft" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDrainHoleQty" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblDesign_Lining">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldDSet_LLim" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDSet_ULim" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldT" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblDesign_Pad">
+    <Key>
+      <PropertyRef Name="fldQty" />
+    </Key>
+    <Property Name="fldQty" Type="Int32" Nullable="false" />
+    <Property Name="fldAngle" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblDesign_Pad_Fillet">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldDSet_LLim" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDSet_ULim" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldR" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblDesign_Tol">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldDSet_LLim" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDSet_ULim" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTol_Assy_EndConfig_DBore" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTol_Detail_EndConfig_DBore" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTol_Detail_DSet" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Drill">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldD_Desig" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldD" Type="Decimal" Nullable="false" Precision="18" Scale="9" />
+    <Property Name="fldCons_Orifice_CB" Type="String" MaxLength="2" Unicode="false" FixedLength="false" />
+    <Property Name="fldCons_MillRelief" Type="String" MaxLength="2" Unicode="false" FixedLength="false" />
+    <Property Name="fldCons_DrainHole" Type="String" MaxLength="2" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblManf_EDM">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldWireGauge" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldGap" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_EndMill">
+    <Key>
+      <PropertyRef Name="fldRowNo" />
+    </Key>
+    <Property Name="fldRowNo" Type="Int32" Nullable="false" />
+    <Property Name="fldD_Desig" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldNFlute" Type="Int32" />
+    <Property Name="fldPref_T1" Type="Boolean" />
+    <Property Name="fldPref_T2" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tblManf_Fixture_Bearing_Splitting">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldB_Hdist_Nom" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldB_Hdist_Tol" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldSplitLineDist_Nom" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldSplitLineDist_Tol" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Fixture_SplitAndTurn">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldPartNo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPartNo_Comp" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDescrip" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDFinish" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLoc" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDBC" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDia_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCountHoles" Type="Int32" />
+    <Property Name="fldEqui_Spaced" Type="Boolean" />
+    <Property Name="fldAng_Start" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAng_Start_Comp" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAng_Other1" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAng_Other2" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAng_Other3" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAng_Other4" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAng_Other5" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAng_Other6" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAng_Other7" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Pin">
+    <Key>
+      <PropertyRef Name="fldRowNo" />
+    </Key>
+    <Property Name="fldRowNo" Type="Int32" Nullable="false" />
+    <Property Name="fldPartNo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldUnit" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDesig" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDescrip" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldL" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldMat" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblManf_Pin_D">
+    <Key>
+      <PropertyRef Name="fldRowNo" />
+    </Key>
+    <Property Name="fldRowNo" Type="Int32" Nullable="false" />
+    <Property Name="fldD_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Screw">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldRowNo" Type="Int32" />
+    <Property Name="fldPartNo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldUnit" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDesig" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDescrip" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPitch" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPitchType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldL" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldMat" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldHead_H" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Screw_D">
+    <Key>
+      <PropertyRef Name="fldRowNo" />
+    </Key>
+    <Property Name="fldRowNo" Type="Int32" Nullable="false" />
+    <Property Name="fldUnit" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldD_TapDrill" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldD_Thru" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldD_CBore" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Screw_Head">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldUnit" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldHead_H" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHead_D" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblMapping_Blank">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="Int32" Nullable="false" />
+    <Property Name="fldCellColName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSW_ParamName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDescrip" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldKMC_ColorCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarVal" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldComments" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblMapping_Complete">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="Int32" Nullable="false" />
+    <Property Name="fldCellColName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSW_ParamName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDescrip" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldKMC_ColorCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarVal" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldComments" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblMapping_Filter">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldListBoxItem" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldFieldName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDataType" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldTableName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldInclude" Type="Boolean" />
+    <Property Name="fldOperators" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblMapping_Radial">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="Int32" Nullable="false" />
+    <Property Name="fldCellColName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSW_ParamName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDescrip" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldKMC_ColorCode" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarVal" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldComments" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblMapping_Seal">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="Int32" Nullable="false" />
+    <Property Name="fldCellColName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSW_ParamName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDescrip" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldKMC_ColoCode" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarVal" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldComments" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblMapping_TB_Assy">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="Int32" Nullable="false" />
+    <Property Name="fldCellColName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSW_ParamName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDescrip" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldKMC_ColorCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarVal" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldComments" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblMapping_TL_TB">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="Int32" Nullable="false" />
+    <Property Name="fldCellColName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSW_ParamName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldDescrip" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldKMC_ColorCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldSoftware_VarVal" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldComments" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblMapping_XLRADIAL">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldVersionNo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldParameter" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldWorksheet" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldCellNo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCellNo_Start" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCellNo_End" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldComment" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblMapping_XLThrust">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldVersionNo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldParameter" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldWorksheet" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldCellNo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCellNo_Start" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCellNo_End" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldComment" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDesign" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fldSplitConfig" Type="Boolean" />
+    <Property Name="fldDShaft_Range_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDShaft_Range_Max" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDFit_Range_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDFit_Range_Max" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDSet_Range_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDSet_Range_Max" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDPad_Range_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDPad_Range_Max" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldL" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDepth_EndConfig_Front" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDepth_EndConfig_Back" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDimStart_FrontFace" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLoc_Fixture_B" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldMat_Base" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldMat_LiningExists" Type="Boolean" />
+    <Property Name="fldMat_Lining" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldLiningT" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_AntiRotPin">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldLoc_Dist_Front" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLoc_Casing_SL" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldLoc_Offset" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLoc_Bearing_Vert" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldLoc_Bearing_SL" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldLoc_Angle" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldSpec_UnitSystem" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSpec_Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSpec_D_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldSpec_L" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldSpec_Mat" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDepth" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldStickOut" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_EDM_Pad">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldRFillet_Back" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngStart_Web" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_Flange">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldExists" Type="Boolean" />
+    <Property Name="fldD" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldWid" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDimStart_Front" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_FlexurePivot">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldWeb_T" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldWeb_H" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldWeb_RFillet" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldGapEDM" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldRot_Stiff" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_MillRelief">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldExists" Type="Boolean" />
+    <Property Name="fldD_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldEDMRelief_Front" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldEDMRelief_Back" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_Mount">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldHoles_GoThru" Type="Boolean" />
+    <Property Name="fldHoles_Bolting" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldFixture_Candidates_Chosen_Front" Type="Boolean" />
+    <Property Name="fldFixture_Candidates_Chosen_Back" Type="Boolean" />
+    <Property Name="fldHoles_Thread_Depth_Front" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHoles_Thread_Depth_Back" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_Mount_Fixture">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPartNo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDBC" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldD_Finish" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHolesCount" Type="Int32" />
+    <Property Name="fldHolesEquispaced" Type="Boolean" />
+    <Property Name="fldHolesAngStart" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHolesAngStart_Comp_Chosen" Type="Boolean" />
+    <Property Name="fldHolesAngOther1" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHolesAngOther2" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHolesAngOther3" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHolesAngOther4" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHolesAngOther5" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHolesAngOther6" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldHolesAngOther7" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldScrew_Spec_Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldScrew_Spec_D_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldScrew_Spec_L" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldScrew_Spec_Mat" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_OilInlet">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldOrifice_Count" Type="Int32" />
+    <Property Name="fldOrifice_D" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldCount_MainOilSupply" Type="Int32" />
+    <Property Name="fldOrifice_StartPos" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldOrifice_DDrill_CBore" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldOrifice_Loc_FrontFace" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldOrifice_L" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldOrifice_AngStart_BDV" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAnnulus_Exists" Type="Boolean" />
+    <Property Name="fldAnnulus_D" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAnnulus_Loc_Back" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAnnulus_L" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldOrifice_Dist_Holes" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_Pad">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCount" Type="Int32" />
+    <Property Name="fldL" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPivot_Offset" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPivot_AngStart" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldT_Lead" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldT_Pivot" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldT_Trail" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_PerformData">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPower_HP" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldFlowReqd_gpm" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTempRise_F" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTFilm_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPadMax_Temp" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPadMax_Press" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPadMax_Rot" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPadMax_Load" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPadMax_Stress" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_SL">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldScrew_Spec_UnitSystem" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldScrew_Spec_Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldScrew_Spec_D_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldScrew_Spec_Pitch" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldScrew_Spec_L" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldScrew_Spec_Mat" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldLScrew_Spec_Loc_Center" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLScrew_Spec_Loc_Front" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldRScrew_Spec_Loc_Center" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldRScrew_Spec_Loc_Front" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldThread_Depth" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldCBore_Depth" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDowel_Spec_UnitSystem" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDowel_Spec_Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDowel_Spec_D_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDowel_Spec_L" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDowel_Spec_Mat" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldLDowel_Spec_Loc_Center" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLDowel_Spec_Loc_Front" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldRDowel_Spec_Loc_Center" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldRDowel_Spec_Loc_Front" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDowel_Depth" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_TempSensor">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldExists" Type="Boolean" />
+    <Property Name="fldCanLength" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldCount" Type="Int32" />
+    <Property Name="fldLoc" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDepth" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngStart" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Details">
+    <Key>
+      <PropertyRef Name="fldNo" />
+      <PropertyRef Name="fldNo_Suffix" />
+    </Key>
+    <Property Name="fldNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldNo_Suffix" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fldStatus" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCustomer_Name" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldCustomer_MachineDesc" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldCustomer_PartNo" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldUnitSystem" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldAssyDwg_No" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldAssyDwg_No_Suffix" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fldAssyDwg_Ref" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldEngg_Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldEngg_Initials" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldEngg_Date" Type="DateTime" />
+    <Property Name="fldDesignedBy_Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDesignedBy_Initials" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDesignedBy_Date" Type="DateTime" />
+    <Property Name="fldCheckedBy_Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCheckedBy_Initials" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCheckedBy_Date" Type="DateTime" />
+    <Property Name="fldDate_Closing" Type="DateTime" />
+    <Property Name="fldFilePath_Project" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldFilePath_DesignTbls_SWFiles" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldFileModified_CompleteAssy" Type="Boolean" />
+    <Property Name="fldFileModified_Radial_Part" Type="Boolean" />
+    <Property Name="fldFileModified_Radial_BlankAssy" Type="Boolean" />
+    <Property Name="fldFileModified_EndTB_Part" Type="Boolean" />
+    <Property Name="fldFileModified_EndTB_Assy" Type="Boolean" />
+    <Property Name="fldFileModified_EndSeal_Part" Type="Boolean" />
+    <Property Name="fldFileModification_Notes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_MountHoles">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDepth_CBore" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldThread_Thru" Type="Boolean" />
+    <Property Name="fldDepth_Thread" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_Seal">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldLiningT" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTempSensor_D_ExitHole" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_Seal_Blade">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCount" Type="Int32" />
+    <Property Name="fldT" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngTaper" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_Seal_DrainHoles">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldAnnulus_Ratio_L_H" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAnnulus_D" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldD_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldCount" Type="Int32" />
+    <Property Name="fldAngStart" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngBet" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngExit" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_Seal_WireClipHoles">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldExists" Type="Boolean" />
+    <Property Name="fldCount" Type="Int32" />
+    <Property Name="fldDBC" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldUnitSystem" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldThread_Dia_Desig" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldThread_Pitch" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldThread_Depth" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngStart" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngOther1" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngOther2" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngOther3" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngOther4" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldAngOther5" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDirectionType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPad_ID" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPad_OD" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLandL" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLiningT_Face" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLiningT_ID" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPad_Count" Type="Int32" />
+    <Property Name="fldTaper_Depth_OD" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTaper_Depth_ID" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTaper_Angle" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldShroud_Ro" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldShroud_Ri" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldBackRelief_Reqd" Type="Boolean" />
+    <Property Name="fldBackRelief_D" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldBackRelief_Depth" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldBackRelief_Fillet" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDimStart" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldLFlange" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldFaceOff_Assy" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB_FeedGroove">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldWid" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDepth" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDBC" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDist_Chamf" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB_GCodes">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD_Desig_T1" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD_Desig_T2" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD_Desig_T3" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldD_Desig_T4" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldOverlap_frac" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldFeed_Taperland" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldFeed_WeepSlot" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDepth_Backlash" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDepth_Dwell_T" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDepth_WeepSlot_Cut" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldFilePath_Dir" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB_PerformData">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPower_HP" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldFlowReqd_gpm" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTempRise_F" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldTFilm_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldUnitLoad" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPadMax_Temp" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldPadMax_Press" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB_WeepSlot">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldWid" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDepth" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfigs">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fldPosition" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldMat_Base" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldMat_Lining" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldDO" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDBore_Range_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDBore_Range_Max" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldL" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_OpCond">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fldSpeed_Range_Min" Type="Int32" />
+    <Property Name="fldSpeed_Range_Max" Type="Int32" />
+    <Property Name="fldRot_Directionality" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fldRadial_Load_Range_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldRadial_Load_Range_Max" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldRadial_LoadAng" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldThrust_Load_Range_Front_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldThrust_Load_Range_Front_Max" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldThrust_Load_Range_Back_Min" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldThrust_Load_Range_Back_Max" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldOilSupply_Lube_Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldOilSupply_Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldOilSupply_Press" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldOilSupply_Temp" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Product">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldBearing_Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldL_Available" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDist_ThrustFace_Front" Type="Decimal" Precision="18" Scale="9" />
+    <Property Name="fldDist_ThrustFace_Back" Type="Decimal" Precision="18" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Product_Accessories">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldProjectNo_Suffix" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fldTempSensor_Supplied" Type="Boolean" />
+    <Property Name="fldTempSensor_Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldTempSensor_Count" Type="Int32" />
+    <Property Name="fldTempSensor_Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fldWireClip_Supplied" Type="Boolean" />
+    <Property Name="fldWireClip_Count" Type="Int32" />
+    <Property Name="fldWireClip_Size" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblUser">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="Int32" Nullable="false" />
+    <Property Name="fldName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldPassword" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldInitials" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fldPrivilege" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

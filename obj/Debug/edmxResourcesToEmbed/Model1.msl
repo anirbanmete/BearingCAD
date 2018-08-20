@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BearingDBModelStoreContainer" CdmEntityContainer="BearingDBEntities">
+    <EntitySetMapping Name="tblData_Lube">
+      <EntityTypeMapping TypeName="BearingDBModel.tblData_Lube">
+        <MappingFragment StoreEntitySet="tblData_Lube">
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldAPI_sg" ColumnName="fldAPI_sg" />
+          <ScalarProperty Name="fldTemp_a" ColumnName="fldTemp_a" />
+          <ScalarProperty Name="fldCSt_a" ColumnName="fldCSt_a" />
+          <ScalarProperty Name="fldTemp_b" ColumnName="fldTemp_b" />
+          <ScalarProperty Name="fldCSt_b" ColumnName="fldCSt_b" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblData_Mat">
+      <EntityTypeMapping TypeName="BearingDBModel.tblData_Mat">
+        <MappingFragment StoreEntitySet="tblData_Mat">
+          <ScalarProperty Name="fldName" ColumnName="fldName" />
+          <ScalarProperty Name="fldName_Abbrv" ColumnName="fldName_Abbrv" />
+          <ScalarProperty Name="fldCode_UNS" ColumnName="fldCode_UNS" />
+          <ScalarProperty Name="fldCode_ProfitKey" ColumnName="fldCode_ProfitKey" />
+          <ScalarProperty Name="fldCode_Waukesha" ColumnName="fldCode_Waukesha" />
+          <ScalarProperty Name="fldDensity" ColumnName="fldDensity" />
+          <ScalarProperty Name="fldK" ColumnName="fldK" />
+          <ScalarProperty Name="fldLCTE" ColumnName="fldLCTE" />
+          <ScalarProperty Name="fldMod" ColumnName="fldMod" />
+          <ScalarProperty Name="fldBase" ColumnName="fldBase" />
+          <ScalarProperty Name="fldLining" ColumnName="fldLining" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDesign_DrainHole">
+      <EntityTypeMapping TypeName="BearingDBModel.tblDesign_DrainHole">
+        <MappingFragment StoreEntitySet="tblDesign_DrainHole">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldDShaft" ColumnName="fldDShaft" />
+          <ScalarProperty Name="fldDrainHoleQty" ColumnName="fldDrainHoleQty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDesign_Lining">
+      <EntityTypeMapping TypeName="BearingDBModel.tblDesign_Lining">
+        <MappingFragment StoreEntitySet="tblDesign_Lining">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldDSet_LLim" ColumnName="fldDSet_LLim" />
+          <ScalarProperty Name="fldDSet_ULim" ColumnName="fldDSet_ULim" />
+          <ScalarProperty Name="fldT" ColumnName="fldT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDesign_Pad">
+      <EntityTypeMapping TypeName="BearingDBModel.tblDesign_Pad">
+        <MappingFragment StoreEntitySet="tblDesign_Pad">
+          <ScalarProperty Name="fldQty" ColumnName="fldQty" />
+          <ScalarProperty Name="fldAngle" ColumnName="fldAngle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDesign_Pad_Fillet">
+      <EntityTypeMapping TypeName="BearingDBModel.tblDesign_Pad_Fillet">
+        <MappingFragment StoreEntitySet="tblDesign_Pad_Fillet">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldDSet_LLim" ColumnName="fldDSet_LLim" />
+          <ScalarProperty Name="fldDSet_ULim" ColumnName="fldDSet_ULim" />
+          <ScalarProperty Name="fldR" ColumnName="fldR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDesign_Tol">
+      <EntityTypeMapping TypeName="BearingDBModel.tblDesign_Tol">
+        <MappingFragment StoreEntitySet="tblDesign_Tol">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldDSet_LLim" ColumnName="fldDSet_LLim" />
+          <ScalarProperty Name="fldDSet_ULim" ColumnName="fldDSet_ULim" />
+          <ScalarProperty Name="fldTol_Assy_EndConfig_DBore" ColumnName="fldTol_Assy_EndConfig_DBore" />
+          <ScalarProperty Name="fldTol_Detail_EndConfig_DBore" ColumnName="fldTol_Detail_EndConfig_DBore" />
+          <ScalarProperty Name="fldTol_Detail_DSet" ColumnName="fldTol_Detail_DSet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_Drill">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_Drill">
+        <MappingFragment StoreEntitySet="tblManf_Drill">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldD_Desig" ColumnName="fldD_Desig" />
+          <ScalarProperty Name="fldD" ColumnName="fldD" />
+          <ScalarProperty Name="fldCons_Orifice_CB" ColumnName="fldCons_Orifice_CB" />
+          <ScalarProperty Name="fldCons_MillRelief" ColumnName="fldCons_MillRelief" />
+          <ScalarProperty Name="fldCons_DrainHole" ColumnName="fldCons_DrainHole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_EDM">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_EDM">
+        <MappingFragment StoreEntitySet="tblManf_EDM">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldWireGauge" ColumnName="fldWireGauge" />
+          <ScalarProperty Name="fldGap" ColumnName="fldGap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_EndMill">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_EndMill">
+        <MappingFragment StoreEntitySet="tblManf_EndMill">
+          <ScalarProperty Name="fldRowNo" ColumnName="fldRowNo" />
+          <ScalarProperty Name="fldD_Desig" ColumnName="fldD_Desig" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldNFlute" ColumnName="fldNFlute" />
+          <ScalarProperty Name="fldPref_T1" ColumnName="fldPref_T1" />
+          <ScalarProperty Name="fldPref_T2" ColumnName="fldPref_T2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_Fixture_Bearing_Splitting">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_Fixture_Bearing_Splitting">
+        <MappingFragment StoreEntitySet="tblManf_Fixture_Bearing_Splitting">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldB_Hdist_Nom" ColumnName="fldB_Hdist_Nom" />
+          <ScalarProperty Name="fldB_Hdist_Tol" ColumnName="fldB_Hdist_Tol" />
+          <ScalarProperty Name="fldSplitLineDist_Nom" ColumnName="fldSplitLineDist_Nom" />
+          <ScalarProperty Name="fldSplitLineDist_Tol" ColumnName="fldSplitLineDist_Tol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_Fixture_SplitAndTurn">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_Fixture_SplitAndTurn">
+        <MappingFragment StoreEntitySet="tblManf_Fixture_SplitAndTurn">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldPartNo" ColumnName="fldPartNo" />
+          <ScalarProperty Name="fldPartNo_Comp" ColumnName="fldPartNo_Comp" />
+          <ScalarProperty Name="fldDescrip" ColumnName="fldDescrip" />
+          <ScalarProperty Name="fldDFinish" ColumnName="fldDFinish" />
+          <ScalarProperty Name="fldLoc" ColumnName="fldLoc" />
+          <ScalarProperty Name="fldDBC" ColumnName="fldDBC" />
+          <ScalarProperty Name="fldDia_Desig" ColumnName="fldDia_Desig" />
+          <ScalarProperty Name="fldCountHoles" ColumnName="fldCountHoles" />
+          <ScalarProperty Name="fldEqui_Spaced" ColumnName="fldEqui_Spaced" />
+          <ScalarProperty Name="fldAng_Start" ColumnName="fldAng_Start" />
+          <ScalarProperty Name="fldAng_Start_Comp" ColumnName="fldAng_Start_Comp" />
+          <ScalarProperty Name="fldAng_Other1" ColumnName="fldAng_Other1" />
+          <ScalarProperty Name="fldAng_Other2" ColumnName="fldAng_Other2" />
+          <ScalarProperty Name="fldAng_Other3" ColumnName="fldAng_Other3" />
+          <ScalarProperty Name="fldAng_Other4" ColumnName="fldAng_Other4" />
+          <ScalarProperty Name="fldAng_Other5" ColumnName="fldAng_Other5" />
+          <ScalarProperty Name="fldAng_Other6" ColumnName="fldAng_Other6" />
+          <ScalarProperty Name="fldAng_Other7" ColumnName="fldAng_Other7" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_Pin">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_Pin">
+        <MappingFragment StoreEntitySet="tblManf_Pin">
+          <ScalarProperty Name="fldRowNo" ColumnName="fldRowNo" />
+          <ScalarProperty Name="fldPartNo" ColumnName="fldPartNo" />
+          <ScalarProperty Name="fldUnit" ColumnName="fldUnit" />
+          <ScalarProperty Name="fldDesig" ColumnName="fldDesig" />
+          <ScalarProperty Name="fldDescrip" ColumnName="fldDescrip" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldD_Desig" ColumnName="fldD_Desig" />
+          <ScalarProperty Name="fldL" ColumnName="fldL" />
+          <ScalarProperty Name="fldMat" ColumnName="fldMat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_Pin_D">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_Pin_D">
+        <MappingFragment StoreEntitySet="tblManf_Pin_D">
+          <ScalarProperty Name="fldRowNo" ColumnName="fldRowNo" />
+          <ScalarProperty Name="fldD_Desig" ColumnName="fldD_Desig" />
+          <ScalarProperty Name="fldD" ColumnName="fldD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_Screw">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_Screw">
+        <MappingFragment StoreEntitySet="tblManf_Screw">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldRowNo" ColumnName="fldRowNo" />
+          <ScalarProperty Name="fldPartNo" ColumnName="fldPartNo" />
+          <ScalarProperty Name="fldUnit" ColumnName="fldUnit" />
+          <ScalarProperty Name="fldDesig" ColumnName="fldDesig" />
+          <ScalarProperty Name="fldDescrip" ColumnName="fldDescrip" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldD_Desig" ColumnName="fldD_Desig" />
+          <ScalarProperty Name="fldPitch" ColumnName="fldPitch" />
+          <ScalarProperty Name="fldPitchType" ColumnName="fldPitchType" />
+          <ScalarProperty Name="fldL" ColumnName="fldL" />
+          <ScalarProperty Name="fldMat" ColumnName="fldMat" />
+          <ScalarProperty Name="fldHead_H" ColumnName="fldHead_H" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_Screw_D">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_Screw_D">
+        <MappingFragment StoreEntitySet="tblManf_Screw_D">
+          <ScalarProperty Name="fldRowNo" ColumnName="fldRowNo" />
+          <ScalarProperty Name="fldUnit" ColumnName="fldUnit" />
+          <ScalarProperty Name="fldD_Desig" ColumnName="fldD_Desig" />
+          <ScalarProperty Name="fldD" ColumnName="fldD" />
+          <ScalarProperty Name="fldD_TapDrill" ColumnName="fldD_TapDrill" />
+          <ScalarProperty Name="fldD_Thru" ColumnName="fldD_Thru" />
+          <ScalarProperty Name="fldD_CBore" ColumnName="fldD_CBore" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManf_Screw_Head">
+      <EntityTypeMapping TypeName="BearingDBModel.tblManf_Screw_Head">
+        <MappingFragment StoreEntitySet="tblManf_Screw_Head">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldUnit" ColumnName="fldUnit" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldD_Desig" ColumnName="fldD_Desig" />
+          <ScalarProperty Name="fldHead_H" ColumnName="fldHead_H" />
+          <ScalarProperty Name="fldHead_D" ColumnName="fldHead_D" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMapping_Blank">
+      <EntityTypeMapping TypeName="BearingDBModel.tblMapping_Blank">
+        <MappingFragment StoreEntitySet="tblMapping_Blank">
+          <ScalarProperty Name="fldItemNo" ColumnName="fldItemNo" />
+          <ScalarProperty Name="fldCellColName" ColumnName="fldCellColName" />
+          <ScalarProperty Name="fldSW_ParamName" ColumnName="fldSW_ParamName" />
+          <ScalarProperty Name="fldDescrip" ColumnName="fldDescrip" />
+          <ScalarProperty Name="fldKMC_ColorCode" ColumnName="fldKMC_ColorCode" />
+          <ScalarProperty Name="fldSoftware_VarName" ColumnName="fldSoftware_VarName" />
+          <ScalarProperty Name="fldSoftware_VarVal" ColumnName="fldSoftware_VarVal" />
+          <ScalarProperty Name="fldComments" ColumnName="fldComments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMapping_Complete">
+      <EntityTypeMapping TypeName="BearingDBModel.tblMapping_Complete">
+        <MappingFragment StoreEntitySet="tblMapping_Complete">
+          <ScalarProperty Name="fldItemNo" ColumnName="fldItemNo" />
+          <ScalarProperty Name="fldCellColName" ColumnName="fldCellColName" />
+          <ScalarProperty Name="fldSW_ParamName" ColumnName="fldSW_ParamName" />
+          <ScalarProperty Name="fldDescrip" ColumnName="fldDescrip" />
+          <ScalarProperty Name="fldKMC_ColorCode" ColumnName="fldKMC_ColorCode" />
+          <ScalarProperty Name="fldSoftware_VarName" ColumnName="fldSoftware_VarName" />
+          <ScalarProperty Name="fldSoftware_VarVal" ColumnName="fldSoftware_VarVal" />
+          <ScalarProperty Name="fldComments" ColumnName="fldComments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMapping_Filter">
+      <EntityTypeMapping TypeName="BearingDBModel.tblMapping_Filter">
+        <MappingFragment StoreEntitySet="tblMapping_Filter">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldListBoxItem" ColumnName="fldListBoxItem" />
+          <ScalarProperty Name="fldFieldName" ColumnName="fldFieldName" />
+          <ScalarProperty Name="fldDataType" ColumnName="fldDataType" />
+          <ScalarProperty Name="fldTableName" ColumnName="fldTableName" />
+          <ScalarProperty Name="fldInclude" ColumnName="fldInclude" />
+          <ScalarProperty Name="fldOperators" ColumnName="fldOperators" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMapping_Radial">
+      <EntityTypeMapping TypeName="BearingDBModel.tblMapping_Radial">
+        <MappingFragment StoreEntitySet="tblMapping_Radial">
+          <ScalarProperty Name="fldItemNo" ColumnName="fldItemNo" />
+          <ScalarProperty Name="fldCellColName" ColumnName="fldCellColName" />
+          <ScalarProperty Name="fldSW_ParamName" ColumnName="fldSW_ParamName" />
+          <ScalarProperty Name="fldDescrip" ColumnName="fldDescrip" />
+          <ScalarProperty Name="fldKMC_ColorCode" ColumnName="fldKMC_ColorCode" />
+          <ScalarProperty Name="fldSoftware_VarName" ColumnName="fldSoftware_VarName" />
+          <ScalarProperty Name="fldSoftware_VarVal" ColumnName="fldSoftware_VarVal" />
+          <ScalarProperty Name="fldComments" ColumnName="fldComments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMapping_Seal">
+      <EntityTypeMapping TypeName="BearingDBModel.tblMapping_Seal">
+        <MappingFragment StoreEntitySet="tblMapping_Seal">
+          <ScalarProperty Name="fldItemNo" ColumnName="fldItemNo" />
+          <ScalarProperty Name="fldCellColName" ColumnName="fldCellColName" />
+          <ScalarProperty Name="fldSW_ParamName" ColumnName="fldSW_ParamName" />
+          <ScalarProperty Name="fldDescrip" ColumnName="fldDescrip" />
+          <ScalarProperty Name="fldKMC_ColoCode" ColumnName="fldKMC_ColoCode" />
+          <ScalarProperty Name="fldSoftware_VarName" ColumnName="fldSoftware_VarName" />
+          <ScalarProperty Name="fldSoftware_VarVal" ColumnName="fldSoftware_VarVal" />
+          <ScalarProperty Name="fldComments" ColumnName="fldComments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMapping_TB_Assy">
+      <EntityTypeMapping TypeName="BearingDBModel.tblMapping_TB_Assy">
+        <MappingFragment StoreEntitySet="tblMapping_TB_Assy">
+          <ScalarProperty Name="fldItemNo" ColumnName="fldItemNo" />
+          <ScalarProperty Name="fldCellColName" ColumnName="fldCellColName" />
+          <ScalarProperty Name="fldSW_ParamName" ColumnName="fldSW_ParamName" />
+          <ScalarProperty Name="fldDescrip" ColumnName="fldDescrip" />
+          <ScalarProperty Name="fldKMC_ColorCode" ColumnName="fldKMC_ColorCode" />
+          <ScalarProperty Name="fldSoftware_VarName" ColumnName="fldSoftware_VarName" />
+          <ScalarProperty Name="fldSoftware_VarVal" ColumnName="fldSoftware_VarVal" />
+          <ScalarProperty Name="fldComments" ColumnName="fldComments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMapping_TL_TB">
+      <EntityTypeMapping TypeName="BearingDBModel.tblMapping_TL_TB">
+        <MappingFragment StoreEntitySet="tblMapping_TL_TB">
+          <ScalarProperty Name="fldItemNo" ColumnName="fldItemNo" />
+          <ScalarProperty Name="fldCellColName" ColumnName="fldCellColName" />
+          <ScalarProperty Name="fldSW_ParamName" ColumnName="fldSW_ParamName" />
+          <ScalarProperty Name="fldDescrip" ColumnName="fldDescrip" />
+          <ScalarProperty Name="fldKMC_ColorCode" ColumnName="fldKMC_ColorCode" />
+          <ScalarProperty Name="fldSoftware_VarName" ColumnName="fldSoftware_VarName" />
+          <ScalarProperty Name="fldSoftware_VarVal" ColumnName="fldSoftware_VarVal" />
+          <ScalarProperty Name="fldComments" ColumnName="fldComments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMapping_XLRADIAL">
+      <EntityTypeMapping TypeName="BearingDBModel.tblMapping_XLRADIAL">
+        <MappingFragment StoreEntitySet="tblMapping_XLRADIAL">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldVersionNo" ColumnName="fldVersionNo" />
+          <ScalarProperty Name="fldParameter" ColumnName="fldParameter" />
+          <ScalarProperty Name="fldWorksheet" ColumnName="fldWorksheet" />
+          <ScalarProperty Name="fldCellNo" ColumnName="fldCellNo" />
+          <ScalarProperty Name="fldCellNo_Start" ColumnName="fldCellNo_Start" />
+          <ScalarProperty Name="fldCellNo_End" ColumnName="fldCellNo_End" />
+          <ScalarProperty Name="fldComment" ColumnName="fldComment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMapping_XLThrust">
+      <EntityTypeMapping TypeName="BearingDBModel.tblMapping_XLThrust">
+        <MappingFragment StoreEntitySet="tblMapping_XLThrust">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldVersionNo" ColumnName="fldVersionNo" />
+          <ScalarProperty Name="fldParameter" ColumnName="fldParameter" />
+          <ScalarProperty Name="fldWorksheet" ColumnName="fldWorksheet" />
+          <ScalarProperty Name="fldCellNo" ColumnName="fldCellNo" />
+          <ScalarProperty Name="fldCellNo_Start" ColumnName="fldCellNo_Start" />
+          <ScalarProperty Name="fldCellNo_End" ColumnName="fldCellNo_End" />
+          <ScalarProperty Name="fldComment" ColumnName="fldComment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldDesign" ColumnName="fldDesign" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldSplitConfig" ColumnName="fldSplitConfig" />
+          <ScalarProperty Name="fldDShaft_Range_Min" ColumnName="fldDShaft_Range_Min" />
+          <ScalarProperty Name="fldDShaft_Range_Max" ColumnName="fldDShaft_Range_Max" />
+          <ScalarProperty Name="fldDFit_Range_Min" ColumnName="fldDFit_Range_Min" />
+          <ScalarProperty Name="fldDFit_Range_Max" ColumnName="fldDFit_Range_Max" />
+          <ScalarProperty Name="fldDSet_Range_Min" ColumnName="fldDSet_Range_Min" />
+          <ScalarProperty Name="fldDSet_Range_Max" ColumnName="fldDSet_Range_Max" />
+          <ScalarProperty Name="fldDPad_Range_Min" ColumnName="fldDPad_Range_Min" />
+          <ScalarProperty Name="fldDPad_Range_Max" ColumnName="fldDPad_Range_Max" />
+          <ScalarProperty Name="fldL" ColumnName="fldL" />
+          <ScalarProperty Name="fldDepth_EndConfig_Front" ColumnName="fldDepth_EndConfig_Front" />
+          <ScalarProperty Name="fldDepth_EndConfig_Back" ColumnName="fldDepth_EndConfig_Back" />
+          <ScalarProperty Name="fldDimStart_FrontFace" ColumnName="fldDimStart_FrontFace" />
+          <ScalarProperty Name="fldLoc_Fixture_B" ColumnName="fldLoc_Fixture_B" />
+          <ScalarProperty Name="fldMat_Base" ColumnName="fldMat_Base" />
+          <ScalarProperty Name="fldMat_LiningExists" ColumnName="fldMat_LiningExists" />
+          <ScalarProperty Name="fldMat_Lining" ColumnName="fldMat_Lining" />
+          <ScalarProperty Name="fldLiningT" ColumnName="fldLiningT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_AntiRotPin">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_AntiRotPin">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_AntiRotPin">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldLoc_Dist_Front" ColumnName="fldLoc_Dist_Front" />
+          <ScalarProperty Name="fldLoc_Casing_SL" ColumnName="fldLoc_Casing_SL" />
+          <ScalarProperty Name="fldLoc_Offset" ColumnName="fldLoc_Offset" />
+          <ScalarProperty Name="fldLoc_Bearing_Vert" ColumnName="fldLoc_Bearing_Vert" />
+          <ScalarProperty Name="fldLoc_Bearing_SL" ColumnName="fldLoc_Bearing_SL" />
+          <ScalarProperty Name="fldLoc_Angle" ColumnName="fldLoc_Angle" />
+          <ScalarProperty Name="fldSpec_UnitSystem" ColumnName="fldSpec_UnitSystem" />
+          <ScalarProperty Name="fldSpec_Type" ColumnName="fldSpec_Type" />
+          <ScalarProperty Name="fldSpec_D_Desig" ColumnName="fldSpec_D_Desig" />
+          <ScalarProperty Name="fldSpec_L" ColumnName="fldSpec_L" />
+          <ScalarProperty Name="fldSpec_Mat" ColumnName="fldSpec_Mat" />
+          <ScalarProperty Name="fldDepth" ColumnName="fldDepth" />
+          <ScalarProperty Name="fldStickOut" ColumnName="fldStickOut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_EDM_Pad">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_EDM_Pad">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_EDM_Pad">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldRFillet_Back" ColumnName="fldRFillet_Back" />
+          <ScalarProperty Name="fldAngStart_Web" ColumnName="fldAngStart_Web" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_Flange">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_Flange">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_Flange">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldExists" ColumnName="fldExists" />
+          <ScalarProperty Name="fldD" ColumnName="fldD" />
+          <ScalarProperty Name="fldWid" ColumnName="fldWid" />
+          <ScalarProperty Name="fldDimStart_Front" ColumnName="fldDimStart_Front" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_FlexurePivot">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_FlexurePivot">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_FlexurePivot">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldWeb_T" ColumnName="fldWeb_T" />
+          <ScalarProperty Name="fldWeb_H" ColumnName="fldWeb_H" />
+          <ScalarProperty Name="fldWeb_RFillet" ColumnName="fldWeb_RFillet" />
+          <ScalarProperty Name="fldGapEDM" ColumnName="fldGapEDM" />
+          <ScalarProperty Name="fldRot_Stiff" ColumnName="fldRot_Stiff" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_MillRelief">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_MillRelief">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_MillRelief">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldExists" ColumnName="fldExists" />
+          <ScalarProperty Name="fldD_Desig" ColumnName="fldD_Desig" />
+          <ScalarProperty Name="fldEDMRelief_Front" ColumnName="fldEDMRelief_Front" />
+          <ScalarProperty Name="fldEDMRelief_Back" ColumnName="fldEDMRelief_Back" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_Mount">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_Mount">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_Mount">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldHoles_GoThru" ColumnName="fldHoles_GoThru" />
+          <ScalarProperty Name="fldHoles_Bolting" ColumnName="fldHoles_Bolting" />
+          <ScalarProperty Name="fldFixture_Candidates_Chosen_Front" ColumnName="fldFixture_Candidates_Chosen_Front" />
+          <ScalarProperty Name="fldFixture_Candidates_Chosen_Back" ColumnName="fldFixture_Candidates_Chosen_Back" />
+          <ScalarProperty Name="fldHoles_Thread_Depth_Front" ColumnName="fldHoles_Thread_Depth_Front" />
+          <ScalarProperty Name="fldHoles_Thread_Depth_Back" ColumnName="fldHoles_Thread_Depth_Back" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_Mount_Fixture">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_Mount_Fixture">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_Mount_Fixture">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldPartNo" ColumnName="fldPartNo" />
+          <ScalarProperty Name="fldDBC" ColumnName="fldDBC" />
+          <ScalarProperty Name="fldD_Finish" ColumnName="fldD_Finish" />
+          <ScalarProperty Name="fldHolesCount" ColumnName="fldHolesCount" />
+          <ScalarProperty Name="fldHolesEquispaced" ColumnName="fldHolesEquispaced" />
+          <ScalarProperty Name="fldHolesAngStart" ColumnName="fldHolesAngStart" />
+          <ScalarProperty Name="fldHolesAngStart_Comp_Chosen" ColumnName="fldHolesAngStart_Comp_Chosen" />
+          <ScalarProperty Name="fldHolesAngOther1" ColumnName="fldHolesAngOther1" />
+          <ScalarProperty Name="fldHolesAngOther2" ColumnName="fldHolesAngOther2" />
+          <ScalarProperty Name="fldHolesAngOther3" ColumnName="fldHolesAngOther3" />
+          <ScalarProperty Name="fldHolesAngOther4" ColumnName="fldHolesAngOther4" />
+          <ScalarProperty Name="fldHolesAngOther5" ColumnName="fldHolesAngOther5" />
+          <ScalarProperty Name="fldHolesAngOther6" ColumnName="fldHolesAngOther6" />
+          <ScalarProperty Name="fldHolesAngOther7" ColumnName="fldHolesAngOther7" />
+          <ScalarProperty Name="fldScrew_Spec_Type" ColumnName="fldScrew_Spec_Type" />
+          <ScalarProperty Name="fldScrew_Spec_D_Desig" ColumnName="fldScrew_Spec_D_Desig" />
+          <ScalarProperty Name="fldScrew_Spec_L" ColumnName="fldScrew_Spec_L" />
+          <ScalarProperty Name="fldScrew_Spec_Mat" ColumnName="fldScrew_Spec_Mat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_OilInlet">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_OilInlet">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_OilInlet">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldOrifice_Count" ColumnName="fldOrifice_Count" />
+          <ScalarProperty Name="fldOrifice_D" ColumnName="fldOrifice_D" />
+          <ScalarProperty Name="fldCount_MainOilSupply" ColumnName="fldCount_MainOilSupply" />
+          <ScalarProperty Name="fldOrifice_StartPos" ColumnName="fldOrifice_StartPos" />
+          <ScalarProperty Name="fldOrifice_DDrill_CBore" ColumnName="fldOrifice_DDrill_CBore" />
+          <ScalarProperty Name="fldOrifice_Loc_FrontFace" ColumnName="fldOrifice_Loc_FrontFace" />
+          <ScalarProperty Name="fldOrifice_L" ColumnName="fldOrifice_L" />
+          <ScalarProperty Name="fldOrifice_AngStart_BDV" ColumnName="fldOrifice_AngStart_BDV" />
+          <ScalarProperty Name="fldAnnulus_Exists" ColumnName="fldAnnulus_Exists" />
+          <ScalarProperty Name="fldAnnulus_D" ColumnName="fldAnnulus_D" />
+          <ScalarProperty Name="fldAnnulus_Loc_Back" ColumnName="fldAnnulus_Loc_Back" />
+          <ScalarProperty Name="fldAnnulus_L" ColumnName="fldAnnulus_L" />
+          <ScalarProperty Name="fldOrifice_Dist_Holes" ColumnName="fldOrifice_Dist_Holes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_Pad">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_Pad">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_Pad">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldCount" ColumnName="fldCount" />
+          <ScalarProperty Name="fldL" ColumnName="fldL" />
+          <ScalarProperty Name="fldPivot_Offset" ColumnName="fldPivot_Offset" />
+          <ScalarProperty Name="fldPivot_AngStart" ColumnName="fldPivot_AngStart" />
+          <ScalarProperty Name="fldT_Lead" ColumnName="fldT_Lead" />
+          <ScalarProperty Name="fldT_Pivot" ColumnName="fldT_Pivot" />
+          <ScalarProperty Name="fldT_Trail" ColumnName="fldT_Trail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_PerformData">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_PerformData">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_PerformData">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPower_HP" ColumnName="fldPower_HP" />
+          <ScalarProperty Name="fldFlowReqd_gpm" ColumnName="fldFlowReqd_gpm" />
+          <ScalarProperty Name="fldTempRise_F" ColumnName="fldTempRise_F" />
+          <ScalarProperty Name="fldTFilm_Min" ColumnName="fldTFilm_Min" />
+          <ScalarProperty Name="fldPadMax_Temp" ColumnName="fldPadMax_Temp" />
+          <ScalarProperty Name="fldPadMax_Press" ColumnName="fldPadMax_Press" />
+          <ScalarProperty Name="fldPadMax_Rot" ColumnName="fldPadMax_Rot" />
+          <ScalarProperty Name="fldPadMax_Load" ColumnName="fldPadMax_Load" />
+          <ScalarProperty Name="fldPadMax_Stress" ColumnName="fldPadMax_Stress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_SL">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_SL">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_SL">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldScrew_Spec_UnitSystem" ColumnName="fldScrew_Spec_UnitSystem" />
+          <ScalarProperty Name="fldScrew_Spec_Type" ColumnName="fldScrew_Spec_Type" />
+          <ScalarProperty Name="fldScrew_Spec_D_Desig" ColumnName="fldScrew_Spec_D_Desig" />
+          <ScalarProperty Name="fldScrew_Spec_Pitch" ColumnName="fldScrew_Spec_Pitch" />
+          <ScalarProperty Name="fldScrew_Spec_L" ColumnName="fldScrew_Spec_L" />
+          <ScalarProperty Name="fldScrew_Spec_Mat" ColumnName="fldScrew_Spec_Mat" />
+          <ScalarProperty Name="fldLScrew_Spec_Loc_Center" ColumnName="fldLScrew_Spec_Loc_Center" />
+          <ScalarProperty Name="fldLScrew_Spec_Loc_Front" ColumnName="fldLScrew_Spec_Loc_Front" />
+          <ScalarProperty Name="fldRScrew_Spec_Loc_Center" ColumnName="fldRScrew_Spec_Loc_Center" />
+          <ScalarProperty Name="fldRScrew_Spec_Loc_Front" ColumnName="fldRScrew_Spec_Loc_Front" />
+          <ScalarProperty Name="fldThread_Depth" ColumnName="fldThread_Depth" />
+          <ScalarProperty Name="fldCBore_Depth" ColumnName="fldCBore_Depth" />
+          <ScalarProperty Name="fldDowel_Spec_UnitSystem" ColumnName="fldDowel_Spec_UnitSystem" />
+          <ScalarProperty Name="fldDowel_Spec_Type" ColumnName="fldDowel_Spec_Type" />
+          <ScalarProperty Name="fldDowel_Spec_D_Desig" ColumnName="fldDowel_Spec_D_Desig" />
+          <ScalarProperty Name="fldDowel_Spec_L" ColumnName="fldDowel_Spec_L" />
+          <ScalarProperty Name="fldDowel_Spec_Mat" ColumnName="fldDowel_Spec_Mat" />
+          <ScalarProperty Name="fldLDowel_Spec_Loc_Center" ColumnName="fldLDowel_Spec_Loc_Center" />
+          <ScalarProperty Name="fldLDowel_Spec_Loc_Front" ColumnName="fldLDowel_Spec_Loc_Front" />
+          <ScalarProperty Name="fldRDowel_Spec_Loc_Center" ColumnName="fldRDowel_Spec_Loc_Center" />
+          <ScalarProperty Name="fldRDowel_Spec_Loc_Front" ColumnName="fldRDowel_Spec_Loc_Front" />
+          <ScalarProperty Name="fldDowel_Depth" ColumnName="fldDowel_Depth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Bearing_Radial_FP_TempSensor">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Bearing_Radial_FP_TempSensor">
+        <MappingFragment StoreEntitySet="tblProject_Bearing_Radial_FP_TempSensor">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldExists" ColumnName="fldExists" />
+          <ScalarProperty Name="fldCanLength" ColumnName="fldCanLength" />
+          <ScalarProperty Name="fldCount" ColumnName="fldCount" />
+          <ScalarProperty Name="fldLoc" ColumnName="fldLoc" />
+          <ScalarProperty Name="fldD" ColumnName="fldD" />
+          <ScalarProperty Name="fldDepth" ColumnName="fldDepth" />
+          <ScalarProperty Name="fldAngStart" ColumnName="fldAngStart" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Details">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Details">
+        <MappingFragment StoreEntitySet="tblProject_Details">
+          <ScalarProperty Name="fldNo" ColumnName="fldNo" />
+          <ScalarProperty Name="fldNo_Suffix" ColumnName="fldNo_Suffix" />
+          <ScalarProperty Name="fldStatus" ColumnName="fldStatus" />
+          <ScalarProperty Name="fldCustomer_Name" ColumnName="fldCustomer_Name" />
+          <ScalarProperty Name="fldCustomer_MachineDesc" ColumnName="fldCustomer_MachineDesc" />
+          <ScalarProperty Name="fldCustomer_PartNo" ColumnName="fldCustomer_PartNo" />
+          <ScalarProperty Name="fldUnitSystem" ColumnName="fldUnitSystem" />
+          <ScalarProperty Name="fldAssyDwg_No" ColumnName="fldAssyDwg_No" />
+          <ScalarProperty Name="fldAssyDwg_No_Suffix" ColumnName="fldAssyDwg_No_Suffix" />
+          <ScalarProperty Name="fldAssyDwg_Ref" ColumnName="fldAssyDwg_Ref" />
+          <ScalarProperty Name="fldEngg_Name" ColumnName="fldEngg_Name" />
+          <ScalarProperty Name="fldEngg_Initials" ColumnName="fldEngg_Initials" />
+          <ScalarProperty Name="fldEngg_Date" ColumnName="fldEngg_Date" />
+          <ScalarProperty Name="fldDesignedBy_Name" ColumnName="fldDesignedBy_Name" />
+          <ScalarProperty Name="fldDesignedBy_Initials" ColumnName="fldDesignedBy_Initials" />
+          <ScalarProperty Name="fldDesignedBy_Date" ColumnName="fldDesignedBy_Date" />
+          <ScalarProperty Name="fldCheckedBy_Name" ColumnName="fldCheckedBy_Name" />
+          <ScalarProperty Name="fldCheckedBy_Initials" ColumnName="fldCheckedBy_Initials" />
+          <ScalarProperty Name="fldCheckedBy_Date" ColumnName="fldCheckedBy_Date" />
+          <ScalarProperty Name="fldDate_Closing" ColumnName="fldDate_Closing" />
+          <ScalarProperty Name="fldFilePath_Project" ColumnName="fldFilePath_Project" />
+          <ScalarProperty Name="fldFilePath_DesignTbls_SWFiles" ColumnName="fldFilePath_DesignTbls_SWFiles" />
+          <ScalarProperty Name="fldFileModified_CompleteAssy" ColumnName="fldFileModified_CompleteAssy" />
+          <ScalarProperty Name="fldFileModified_Radial_Part" ColumnName="fldFileModified_Radial_Part" />
+          <ScalarProperty Name="fldFileModified_Radial_BlankAssy" ColumnName="fldFileModified_Radial_BlankAssy" />
+          <ScalarProperty Name="fldFileModified_EndTB_Part" ColumnName="fldFileModified_EndTB_Part" />
+          <ScalarProperty Name="fldFileModified_EndTB_Assy" ColumnName="fldFileModified_EndTB_Assy" />
+          <ScalarProperty Name="fldFileModified_EndSeal_Part" ColumnName="fldFileModified_EndSeal_Part" />
+          <ScalarProperty Name="fldFileModification_Notes" ColumnName="fldFileModification_Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_MountHoles">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_MountHoles">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_MountHoles">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldDepth_CBore" ColumnName="fldDepth_CBore" />
+          <ScalarProperty Name="fldThread_Thru" ColumnName="fldThread_Thru" />
+          <ScalarProperty Name="fldDepth_Thread" ColumnName="fldDepth_Thread" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_Seal">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_Seal">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_Seal">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldLiningT" ColumnName="fldLiningT" />
+          <ScalarProperty Name="fldTempSensor_D_ExitHole" ColumnName="fldTempSensor_D_ExitHole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_Seal_Blade">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_Seal_Blade">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_Seal_Blade">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldCount" ColumnName="fldCount" />
+          <ScalarProperty Name="fldT" ColumnName="fldT" />
+          <ScalarProperty Name="fldAngTaper" ColumnName="fldAngTaper" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_Seal_DrainHoles">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_Seal_DrainHoles">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_Seal_DrainHoles">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldAnnulus_Ratio_L_H" ColumnName="fldAnnulus_Ratio_L_H" />
+          <ScalarProperty Name="fldAnnulus_D" ColumnName="fldAnnulus_D" />
+          <ScalarProperty Name="fldD_Desig" ColumnName="fldD_Desig" />
+          <ScalarProperty Name="fldCount" ColumnName="fldCount" />
+          <ScalarProperty Name="fldAngStart" ColumnName="fldAngStart" />
+          <ScalarProperty Name="fldAngBet" ColumnName="fldAngBet" />
+          <ScalarProperty Name="fldAngExit" ColumnName="fldAngExit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_Seal_WireClipHoles">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_Seal_WireClipHoles">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_Seal_WireClipHoles">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldExists" ColumnName="fldExists" />
+          <ScalarProperty Name="fldCount" ColumnName="fldCount" />
+          <ScalarProperty Name="fldDBC" ColumnName="fldDBC" />
+          <ScalarProperty Name="fldUnitSystem" ColumnName="fldUnitSystem" />
+          <ScalarProperty Name="fldThread_Dia_Desig" ColumnName="fldThread_Dia_Desig" />
+          <ScalarProperty Name="fldThread_Pitch" ColumnName="fldThread_Pitch" />
+          <ScalarProperty Name="fldThread_Depth" ColumnName="fldThread_Depth" />
+          <ScalarProperty Name="fldAngStart" ColumnName="fldAngStart" />
+          <ScalarProperty Name="fldAngOther1" ColumnName="fldAngOther1" />
+          <ScalarProperty Name="fldAngOther2" ColumnName="fldAngOther2" />
+          <ScalarProperty Name="fldAngOther3" ColumnName="fldAngOther3" />
+          <ScalarProperty Name="fldAngOther4" ColumnName="fldAngOther4" />
+          <ScalarProperty Name="fldAngOther5" ColumnName="fldAngOther5" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_TB">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_TB">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_TB">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldDirectionType" ColumnName="fldDirectionType" />
+          <ScalarProperty Name="fldPad_ID" ColumnName="fldPad_ID" />
+          <ScalarProperty Name="fldPad_OD" ColumnName="fldPad_OD" />
+          <ScalarProperty Name="fldLandL" ColumnName="fldLandL" />
+          <ScalarProperty Name="fldLiningT_Face" ColumnName="fldLiningT_Face" />
+          <ScalarProperty Name="fldLiningT_ID" ColumnName="fldLiningT_ID" />
+          <ScalarProperty Name="fldPad_Count" ColumnName="fldPad_Count" />
+          <ScalarProperty Name="fldTaper_Depth_OD" ColumnName="fldTaper_Depth_OD" />
+          <ScalarProperty Name="fldTaper_Depth_ID" ColumnName="fldTaper_Depth_ID" />
+          <ScalarProperty Name="fldTaper_Angle" ColumnName="fldTaper_Angle" />
+          <ScalarProperty Name="fldShroud_Ro" ColumnName="fldShroud_Ro" />
+          <ScalarProperty Name="fldShroud_Ri" ColumnName="fldShroud_Ri" />
+          <ScalarProperty Name="fldBackRelief_Reqd" ColumnName="fldBackRelief_Reqd" />
+          <ScalarProperty Name="fldBackRelief_D" ColumnName="fldBackRelief_D" />
+          <ScalarProperty Name="fldBackRelief_Depth" ColumnName="fldBackRelief_Depth" />
+          <ScalarProperty Name="fldBackRelief_Fillet" ColumnName="fldBackRelief_Fillet" />
+          <ScalarProperty Name="fldDimStart" ColumnName="fldDimStart" />
+          <ScalarProperty Name="fldLFlange" ColumnName="fldLFlange" />
+          <ScalarProperty Name="fldFaceOff_Assy" ColumnName="fldFaceOff_Assy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_TB_FeedGroove">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_TB_FeedGroove">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_TB_FeedGroove">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldWid" ColumnName="fldWid" />
+          <ScalarProperty Name="fldDepth" ColumnName="fldDepth" />
+          <ScalarProperty Name="fldDBC" ColumnName="fldDBC" />
+          <ScalarProperty Name="fldDist_Chamf" ColumnName="fldDist_Chamf" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_TB_GCodes">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_TB_GCodes">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_TB_GCodes">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldD_Desig_T1" ColumnName="fldD_Desig_T1" />
+          <ScalarProperty Name="fldD_Desig_T2" ColumnName="fldD_Desig_T2" />
+          <ScalarProperty Name="fldD_Desig_T3" ColumnName="fldD_Desig_T3" />
+          <ScalarProperty Name="fldD_Desig_T4" ColumnName="fldD_Desig_T4" />
+          <ScalarProperty Name="fldOverlap_frac" ColumnName="fldOverlap_frac" />
+          <ScalarProperty Name="fldFeed_Taperland" ColumnName="fldFeed_Taperland" />
+          <ScalarProperty Name="fldFeed_WeepSlot" ColumnName="fldFeed_WeepSlot" />
+          <ScalarProperty Name="fldDepth_Backlash" ColumnName="fldDepth_Backlash" />
+          <ScalarProperty Name="fldDepth_Dwell_T" ColumnName="fldDepth_Dwell_T" />
+          <ScalarProperty Name="fldDepth_WeepSlot_Cut" ColumnName="fldDepth_WeepSlot_Cut" />
+          <ScalarProperty Name="fldFilePath_Dir" ColumnName="fldFilePath_Dir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_TB_PerformData">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_TB_PerformData">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_TB_PerformData">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldPower_HP" ColumnName="fldPower_HP" />
+          <ScalarProperty Name="fldFlowReqd_gpm" ColumnName="fldFlowReqd_gpm" />
+          <ScalarProperty Name="fldTempRise_F" ColumnName="fldTempRise_F" />
+          <ScalarProperty Name="fldTFilm_Min" ColumnName="fldTFilm_Min" />
+          <ScalarProperty Name="fldUnitLoad" ColumnName="fldUnitLoad" />
+          <ScalarProperty Name="fldPadMax_Temp" ColumnName="fldPadMax_Temp" />
+          <ScalarProperty Name="fldPadMax_Press" ColumnName="fldPadMax_Press" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfig_TB_WeepSlot">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfig_TB_WeepSlot">
+        <MappingFragment StoreEntitySet="tblProject_EndConfig_TB_WeepSlot">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldWid" ColumnName="fldWid" />
+          <ScalarProperty Name="fldDepth" ColumnName="fldDepth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_EndConfigs">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_EndConfigs">
+        <MappingFragment StoreEntitySet="tblProject_EndConfigs">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldPosition" ColumnName="fldPosition" />
+          <ScalarProperty Name="fldType" ColumnName="fldType" />
+          <ScalarProperty Name="fldMat_Base" ColumnName="fldMat_Base" />
+          <ScalarProperty Name="fldMat_Lining" ColumnName="fldMat_Lining" />
+          <ScalarProperty Name="fldDO" ColumnName="fldDO" />
+          <ScalarProperty Name="fldDBore_Range_Min" ColumnName="fldDBore_Range_Min" />
+          <ScalarProperty Name="fldDBore_Range_Max" ColumnName="fldDBore_Range_Max" />
+          <ScalarProperty Name="fldL" ColumnName="fldL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_OpCond">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_OpCond">
+        <MappingFragment StoreEntitySet="tblProject_OpCond">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldSpeed_Range_Min" ColumnName="fldSpeed_Range_Min" />
+          <ScalarProperty Name="fldSpeed_Range_Max" ColumnName="fldSpeed_Range_Max" />
+          <ScalarProperty Name="fldRot_Directionality" ColumnName="fldRot_Directionality" />
+          <ScalarProperty Name="fldRadial_Load_Range_Min" ColumnName="fldRadial_Load_Range_Min" />
+          <ScalarProperty Name="fldRadial_Load_Range_Max" ColumnName="fldRadial_Load_Range_Max" />
+          <ScalarProperty Name="fldRadial_LoadAng" ColumnName="fldRadial_LoadAng" />
+          <ScalarProperty Name="fldThrust_Load_Range_Front_Min" ColumnName="fldThrust_Load_Range_Front_Min" />
+          <ScalarProperty Name="fldThrust_Load_Range_Front_Max" ColumnName="fldThrust_Load_Range_Front_Max" />
+          <ScalarProperty Name="fldThrust_Load_Range_Back_Min" ColumnName="fldThrust_Load_Range_Back_Min" />
+          <ScalarProperty Name="fldThrust_Load_Range_Back_Max" ColumnName="fldThrust_Load_Range_Back_Max" />
+          <ScalarProperty Name="fldOilSupply_Lube_Type" ColumnName="fldOilSupply_Lube_Type" />
+          <ScalarProperty Name="fldOilSupply_Type" ColumnName="fldOilSupply_Type" />
+          <ScalarProperty Name="fldOilSupply_Press" ColumnName="fldOilSupply_Press" />
+          <ScalarProperty Name="fldOilSupply_Temp" ColumnName="fldOilSupply_Temp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Product">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Product">
+        <MappingFragment StoreEntitySet="tblProject_Product">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldBearing_Type" ColumnName="fldBearing_Type" />
+          <ScalarProperty Name="fldL_Available" ColumnName="fldL_Available" />
+          <ScalarProperty Name="fldDist_ThrustFace_Front" ColumnName="fldDist_ThrustFace_Front" />
+          <ScalarProperty Name="fldDist_ThrustFace_Back" ColumnName="fldDist_ThrustFace_Back" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProject_Product_Accessories">
+      <EntityTypeMapping TypeName="BearingDBModel.tblProject_Product_Accessories">
+        <MappingFragment StoreEntitySet="tblProject_Product_Accessories">
+          <ScalarProperty Name="fldProjectNo" ColumnName="fldProjectNo" />
+          <ScalarProperty Name="fldProjectNo_Suffix" ColumnName="fldProjectNo_Suffix" />
+          <ScalarProperty Name="fldTempSensor_Supplied" ColumnName="fldTempSensor_Supplied" />
+          <ScalarProperty Name="fldTempSensor_Name" ColumnName="fldTempSensor_Name" />
+          <ScalarProperty Name="fldTempSensor_Count" ColumnName="fldTempSensor_Count" />
+          <ScalarProperty Name="fldTempSensor_Type" ColumnName="fldTempSensor_Type" />
+          <ScalarProperty Name="fldWireClip_Supplied" ColumnName="fldWireClip_Supplied" />
+          <ScalarProperty Name="fldWireClip_Count" ColumnName="fldWireClip_Count" />
+          <ScalarProperty Name="fldWireClip_Size" ColumnName="fldWireClip_Size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUser">
+      <EntityTypeMapping TypeName="BearingDBModel.tblUser">
+        <MappingFragment StoreEntitySet="tblUser">
+          <ScalarProperty Name="fldID" ColumnName="fldID" />
+          <ScalarProperty Name="fldName" ColumnName="fldName" />
+          <ScalarProperty Name="fldPassword" ColumnName="fldPassword" />
+          <ScalarProperty Name="fldInitials" ColumnName="fldInitials" />
+          <ScalarProperty Name="fldPrivilege" ColumnName="fldPrivilege" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

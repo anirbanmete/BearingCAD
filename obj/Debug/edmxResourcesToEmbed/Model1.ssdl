@@ -1,0 +1,905 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BearingDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="BearingDBModelStoreContainer">
+    <EntitySet Name="tblData_Lube" EntityType="BearingDBModel.Store.tblData_Lube" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblData_Mat" EntityType="BearingDBModel.Store.tblData_Mat" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblDesign_DrainHole" EntityType="BearingDBModel.Store.tblDesign_DrainHole" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblDesign_Lining" EntityType="BearingDBModel.Store.tblDesign_Lining" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblDesign_Pad" EntityType="BearingDBModel.Store.tblDesign_Pad" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblDesign_Pad_Fillet" EntityType="BearingDBModel.Store.tblDesign_Pad_Fillet" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblDesign_Tol" EntityType="BearingDBModel.Store.tblDesign_Tol" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_Drill" EntityType="BearingDBModel.Store.tblManf_Drill" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_EDM" EntityType="BearingDBModel.Store.tblManf_EDM" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_EndMill" EntityType="BearingDBModel.Store.tblManf_EndMill" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_Fixture_Bearing_Splitting" EntityType="BearingDBModel.Store.tblManf_Fixture_Bearing_Splitting" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_Fixture_SplitAndTurn" EntityType="BearingDBModel.Store.tblManf_Fixture_SplitAndTurn" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_Pin" EntityType="BearingDBModel.Store.tblManf_Pin" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_Pin_D" EntityType="BearingDBModel.Store.tblManf_Pin_D" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_Screw" EntityType="BearingDBModel.Store.tblManf_Screw" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_Screw_D" EntityType="BearingDBModel.Store.tblManf_Screw_D" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblManf_Screw_Head" EntityType="BearingDBModel.Store.tblManf_Screw_Head" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblMapping_Blank" EntityType="BearingDBModel.Store.tblMapping_Blank" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblMapping_Complete" EntityType="BearingDBModel.Store.tblMapping_Complete" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblMapping_Filter" EntityType="BearingDBModel.Store.tblMapping_Filter" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblMapping_Radial" EntityType="BearingDBModel.Store.tblMapping_Radial" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblMapping_Seal" EntityType="BearingDBModel.Store.tblMapping_Seal" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblMapping_TB_Assy" EntityType="BearingDBModel.Store.tblMapping_TB_Assy" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblMapping_TL_TB" EntityType="BearingDBModel.Store.tblMapping_TL_TB" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblMapping_XLRADIAL" EntityType="BearingDBModel.Store.tblMapping_XLRADIAL" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblMapping_XLThrust" EntityType="BearingDBModel.Store.tblMapping_XLThrust" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_AntiRotPin" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_AntiRotPin" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_EDM_Pad" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_EDM_Pad" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_Flange" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_Flange" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_FlexurePivot" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_FlexurePivot" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_MillRelief" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_MillRelief" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_Mount" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_Mount" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_Mount_Fixture" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_Mount_Fixture" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_OilInlet" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_OilInlet" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_Pad" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_Pad" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_PerformData" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_PerformData" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_SL" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_SL" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Bearing_Radial_FP_TempSensor" EntityType="BearingDBModel.Store.tblProject_Bearing_Radial_FP_TempSensor" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Details" EntityType="BearingDBModel.Store.tblProject_Details" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_MountHoles" EntityType="BearingDBModel.Store.tblProject_EndConfig_MountHoles" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_Seal" EntityType="BearingDBModel.Store.tblProject_EndConfig_Seal" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_Seal_Blade" EntityType="BearingDBModel.Store.tblProject_EndConfig_Seal_Blade" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_Seal_DrainHoles" EntityType="BearingDBModel.Store.tblProject_EndConfig_Seal_DrainHoles" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_Seal_WireClipHoles" EntityType="BearingDBModel.Store.tblProject_EndConfig_Seal_WireClipHoles" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_TB" EntityType="BearingDBModel.Store.tblProject_EndConfig_TB" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_TB_FeedGroove" EntityType="BearingDBModel.Store.tblProject_EndConfig_TB_FeedGroove" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_TB_GCodes" EntityType="BearingDBModel.Store.tblProject_EndConfig_TB_GCodes" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_TB_PerformData" EntityType="BearingDBModel.Store.tblProject_EndConfig_TB_PerformData" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfig_TB_WeepSlot" EntityType="BearingDBModel.Store.tblProject_EndConfig_TB_WeepSlot" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_EndConfigs" EntityType="BearingDBModel.Store.tblProject_EndConfigs" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_OpCond" EntityType="BearingDBModel.Store.tblProject_OpCond" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Product" EntityType="BearingDBModel.Store.tblProject_Product" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblProject_Product_Accessories" EntityType="BearingDBModel.Store.tblProject_Product_Accessories" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tblUser" EntityType="BearingDBModel.Store.tblUser" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+  </EntityContainer>
+  <EntityType Name="tblData_Lube">
+    <Key>
+      <PropertyRef Name="fldType" />
+    </Key>
+    <Property Name="fldType" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldAPI_sg" Type="numeric" Scale="9" />
+    <Property Name="fldTemp_a" Type="numeric" Scale="9" />
+    <Property Name="fldCSt_a" Type="numeric" Scale="9" />
+    <Property Name="fldTemp_b" Type="numeric" Scale="9" />
+    <Property Name="fldCSt_b" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblData_Mat">
+    <Key>
+      <PropertyRef Name="fldName" />
+    </Key>
+    <Property Name="fldName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldName_Abbrv" Type="varchar" MaxLength="50" />
+    <Property Name="fldCode_UNS" Type="varchar" MaxLength="50" />
+    <Property Name="fldCode_ProfitKey" Type="varchar" MaxLength="50" />
+    <Property Name="fldCode_Waukesha" Type="varchar" MaxLength="50" />
+    <Property Name="fldDensity" Type="numeric" Scale="9" />
+    <Property Name="fldK" Type="numeric" Scale="9" />
+    <Property Name="fldLCTE" Type="numeric" Scale="9" />
+    <Property Name="fldMod" Type="numeric" Scale="9" />
+    <Property Name="fldBase" Type="bit" />
+    <Property Name="fldLining" Type="bit" />
+  </EntityType>
+  <EntityType Name="tblDesign_DrainHole">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldDShaft" Type="numeric" Scale="9" />
+    <Property Name="fldDrainHoleQty" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblDesign_Lining">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldDSet_LLim" Type="numeric" Scale="9" />
+    <Property Name="fldDSet_ULim" Type="numeric" Scale="9" />
+    <Property Name="fldT" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblDesign_Pad">
+    <Key>
+      <PropertyRef Name="fldQty" />
+    </Key>
+    <Property Name="fldQty" Type="int" Nullable="false" />
+    <Property Name="fldAngle" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblDesign_Pad_Fillet">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldDSet_LLim" Type="numeric" Scale="9" />
+    <Property Name="fldDSet_ULim" Type="numeric" Scale="9" />
+    <Property Name="fldR" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblDesign_Tol">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldDSet_LLim" Type="numeric" Scale="9" />
+    <Property Name="fldDSet_ULim" Type="numeric" Scale="9" />
+    <Property Name="fldTol_Assy_EndConfig_DBore" Type="numeric" Scale="9" />
+    <Property Name="fldTol_Detail_EndConfig_DBore" Type="numeric" Scale="9" />
+    <Property Name="fldTol_Detail_DSet" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Drill">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldD_Desig" Type="varchar(max)" />
+    <Property Name="fldD" Type="numeric" Nullable="false" Scale="9" />
+    <Property Name="fldCons_Orifice_CB" Type="varchar" MaxLength="2" />
+    <Property Name="fldCons_MillRelief" Type="varchar" MaxLength="2" />
+    <Property Name="fldCons_DrainHole" Type="varchar" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="tblManf_EDM">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldWireGauge" Type="numeric" Scale="9" />
+    <Property Name="fldGap" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_EndMill">
+    <Key>
+      <PropertyRef Name="fldRowNo" />
+    </Key>
+    <Property Name="fldRowNo" Type="int" Nullable="false" />
+    <Property Name="fldD_Desig" Type="varchar(max)" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldNFlute" Type="int" />
+    <Property Name="fldPref_T1" Type="bit" />
+    <Property Name="fldPref_T2" Type="bit" />
+  </EntityType>
+  <EntityType Name="tblManf_Fixture_Bearing_Splitting">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldB_Hdist_Nom" Type="numeric" Scale="9" />
+    <Property Name="fldB_Hdist_Tol" Type="numeric" Scale="9" />
+    <Property Name="fldSplitLineDist_Nom" Type="numeric" Scale="9" />
+    <Property Name="fldSplitLineDist_Tol" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Fixture_SplitAndTurn">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldPartNo" Type="varchar" MaxLength="50" />
+    <Property Name="fldPartNo_Comp" Type="varchar(max)" />
+    <Property Name="fldDescrip" Type="varchar" MaxLength="50" />
+    <Property Name="fldDFinish" Type="numeric" Scale="9" />
+    <Property Name="fldLoc" Type="varchar" MaxLength="50" />
+    <Property Name="fldDBC" Type="numeric" Scale="9" />
+    <Property Name="fldDia_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldCountHoles" Type="int" />
+    <Property Name="fldEqui_Spaced" Type="bit" />
+    <Property Name="fldAng_Start" Type="numeric" Scale="9" />
+    <Property Name="fldAng_Start_Comp" Type="numeric" Scale="9" />
+    <Property Name="fldAng_Other1" Type="numeric" Scale="9" />
+    <Property Name="fldAng_Other2" Type="numeric" Scale="9" />
+    <Property Name="fldAng_Other3" Type="numeric" Scale="9" />
+    <Property Name="fldAng_Other4" Type="numeric" Scale="9" />
+    <Property Name="fldAng_Other5" Type="numeric" Scale="9" />
+    <Property Name="fldAng_Other6" Type="numeric" Scale="9" />
+    <Property Name="fldAng_Other7" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Pin">
+    <Key>
+      <PropertyRef Name="fldRowNo" />
+    </Key>
+    <Property Name="fldRowNo" Type="int" Nullable="false" />
+    <Property Name="fldPartNo" Type="varchar" MaxLength="50" />
+    <Property Name="fldUnit" Type="varchar" MaxLength="50" />
+    <Property Name="fldDesig" Type="varchar(max)" />
+    <Property Name="fldDescrip" Type="varchar(max)" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldD_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldL" Type="numeric" Scale="9" />
+    <Property Name="fldMat" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblManf_Pin_D">
+    <Key>
+      <PropertyRef Name="fldRowNo" />
+    </Key>
+    <Property Name="fldRowNo" Type="int" Nullable="false" />
+    <Property Name="fldD_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldD" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Screw">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldRowNo" Type="int" />
+    <Property Name="fldPartNo" Type="varchar" MaxLength="50" />
+    <Property Name="fldUnit" Type="varchar" MaxLength="50" />
+    <Property Name="fldDesig" Type="varchar(max)" />
+    <Property Name="fldDescrip" Type="varchar(max)" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldD_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldPitch" Type="numeric" Scale="9" />
+    <Property Name="fldPitchType" Type="varchar" MaxLength="50" />
+    <Property Name="fldL" Type="numeric" Scale="9" />
+    <Property Name="fldMat" Type="varchar" MaxLength="50" />
+    <Property Name="fldHead_H" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Screw_D">
+    <Key>
+      <PropertyRef Name="fldRowNo" />
+    </Key>
+    <Property Name="fldRowNo" Type="int" Nullable="false" />
+    <Property Name="fldUnit" Type="varchar" MaxLength="50" />
+    <Property Name="fldD_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldD" Type="numeric" Scale="9" />
+    <Property Name="fldD_TapDrill" Type="numeric" Scale="9" />
+    <Property Name="fldD_Thru" Type="numeric" Scale="9" />
+    <Property Name="fldD_CBore" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblManf_Screw_Head">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldUnit" Type="varchar" MaxLength="50" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldD_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldHead_H" Type="numeric" Scale="9" />
+    <Property Name="fldHead_D" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblMapping_Blank">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="int" Nullable="false" />
+    <Property Name="fldCellColName" Type="varchar" MaxLength="50" />
+    <Property Name="fldSW_ParamName" Type="varchar(max)" />
+    <Property Name="fldDescrip" Type="varchar(max)" />
+    <Property Name="fldKMC_ColorCode" Type="varchar" MaxLength="50" />
+    <Property Name="fldSoftware_VarName" Type="varchar(max)" />
+    <Property Name="fldSoftware_VarVal" Type="varchar(max)" />
+    <Property Name="fldComments" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblMapping_Complete">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="int" Nullable="false" />
+    <Property Name="fldCellColName" Type="varchar" MaxLength="50" />
+    <Property Name="fldSW_ParamName" Type="varchar(max)" />
+    <Property Name="fldDescrip" Type="varchar(max)" />
+    <Property Name="fldKMC_ColorCode" Type="varchar" MaxLength="50" />
+    <Property Name="fldSoftware_VarName" Type="varchar(max)" />
+    <Property Name="fldSoftware_VarVal" Type="varchar(max)" />
+    <Property Name="fldComments" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblMapping_Filter">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldListBoxItem" Type="varchar(max)" />
+    <Property Name="fldFieldName" Type="varchar(max)" />
+    <Property Name="fldDataType" Type="varchar(max)" />
+    <Property Name="fldTableName" Type="varchar(max)" />
+    <Property Name="fldInclude" Type="bit" />
+    <Property Name="fldOperators" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblMapping_Radial">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="int" Nullable="false" />
+    <Property Name="fldCellColName" Type="varchar(max)" />
+    <Property Name="fldSW_ParamName" Type="varchar(max)" />
+    <Property Name="fldDescrip" Type="varchar(max)" />
+    <Property Name="fldKMC_ColorCode" Type="varchar(max)" />
+    <Property Name="fldSoftware_VarName" Type="varchar(max)" />
+    <Property Name="fldSoftware_VarVal" Type="varchar" MaxLength="50" />
+    <Property Name="fldComments" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblMapping_Seal">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="int" Nullable="false" />
+    <Property Name="fldCellColName" Type="varchar(max)" />
+    <Property Name="fldSW_ParamName" Type="varchar(max)" />
+    <Property Name="fldDescrip" Type="varchar(max)" />
+    <Property Name="fldKMC_ColoCode" Type="varchar(max)" />
+    <Property Name="fldSoftware_VarName" Type="varchar(max)" />
+    <Property Name="fldSoftware_VarVal" Type="varchar(max)" />
+    <Property Name="fldComments" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblMapping_TB_Assy">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="int" Nullable="false" />
+    <Property Name="fldCellColName" Type="varchar" MaxLength="50" />
+    <Property Name="fldSW_ParamName" Type="varchar(max)" />
+    <Property Name="fldDescrip" Type="varchar(max)" />
+    <Property Name="fldKMC_ColorCode" Type="varchar" MaxLength="50" />
+    <Property Name="fldSoftware_VarName" Type="varchar(max)" />
+    <Property Name="fldSoftware_VarVal" Type="varchar(max)" />
+    <Property Name="fldComments" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblMapping_TL_TB">
+    <Key>
+      <PropertyRef Name="fldItemNo" />
+    </Key>
+    <Property Name="fldItemNo" Type="int" Nullable="false" />
+    <Property Name="fldCellColName" Type="varchar" MaxLength="50" />
+    <Property Name="fldSW_ParamName" Type="varchar(max)" />
+    <Property Name="fldDescrip" Type="varchar(max)" />
+    <Property Name="fldKMC_ColorCode" Type="varchar" MaxLength="50" />
+    <Property Name="fldSoftware_VarName" Type="varchar(max)" />
+    <Property Name="fldSoftware_VarVal" Type="varchar(max)" />
+    <Property Name="fldComments" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblMapping_XLRADIAL">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldVersionNo" Type="varchar" MaxLength="50" />
+    <Property Name="fldParameter" Type="varchar(max)" />
+    <Property Name="fldWorksheet" Type="varchar(max)" />
+    <Property Name="fldCellNo" Type="varchar" MaxLength="50" />
+    <Property Name="fldCellNo_Start" Type="varchar" MaxLength="50" />
+    <Property Name="fldCellNo_End" Type="varchar" MaxLength="50" />
+    <Property Name="fldComment" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblMapping_XLThrust">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldVersionNo" Type="varchar" MaxLength="50" />
+    <Property Name="fldParameter" Type="varchar(max)" />
+    <Property Name="fldWorksheet" Type="varchar(max)" />
+    <Property Name="fldCellNo" Type="varchar" MaxLength="50" />
+    <Property Name="fldCellNo_Start" Type="varchar" MaxLength="50" />
+    <Property Name="fldCellNo_End" Type="varchar" MaxLength="50" />
+    <Property Name="fldComment" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldDesign" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="fldSplitConfig" Type="bit" />
+    <Property Name="fldDShaft_Range_Min" Type="numeric" Scale="9" />
+    <Property Name="fldDShaft_Range_Max" Type="numeric" Scale="9" />
+    <Property Name="fldDFit_Range_Min" Type="numeric" Scale="9" />
+    <Property Name="fldDFit_Range_Max" Type="numeric" Scale="9" />
+    <Property Name="fldDSet_Range_Min" Type="numeric" Scale="9" />
+    <Property Name="fldDSet_Range_Max" Type="numeric" Scale="9" />
+    <Property Name="fldDPad_Range_Min" Type="numeric" Scale="9" />
+    <Property Name="fldDPad_Range_Max" Type="numeric" Scale="9" />
+    <Property Name="fldL" Type="numeric" Scale="9" />
+    <Property Name="fldDepth_EndConfig_Front" Type="numeric" Scale="9" />
+    <Property Name="fldDepth_EndConfig_Back" Type="numeric" Scale="9" />
+    <Property Name="fldDimStart_FrontFace" Type="numeric" Scale="9" />
+    <Property Name="fldLoc_Fixture_B" Type="numeric" Scale="9" />
+    <Property Name="fldMat_Base" Type="varchar" MaxLength="50" />
+    <Property Name="fldMat_LiningExists" Type="bit" />
+    <Property Name="fldMat_Lining" Type="varchar" MaxLength="50" />
+    <Property Name="fldLiningT" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_AntiRotPin">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldLoc_Dist_Front" Type="numeric" Scale="9" />
+    <Property Name="fldLoc_Casing_SL" Type="varchar" MaxLength="50" />
+    <Property Name="fldLoc_Offset" Type="numeric" Scale="9" />
+    <Property Name="fldLoc_Bearing_Vert" Type="varchar" MaxLength="50" />
+    <Property Name="fldLoc_Bearing_SL" Type="varchar" MaxLength="50" />
+    <Property Name="fldLoc_Angle" Type="numeric" Scale="9" />
+    <Property Name="fldSpec_UnitSystem" Type="varchar" MaxLength="50" />
+    <Property Name="fldSpec_Type" Type="varchar" MaxLength="50" />
+    <Property Name="fldSpec_D_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldSpec_L" Type="numeric" Scale="9" />
+    <Property Name="fldSpec_Mat" Type="varchar" MaxLength="50" />
+    <Property Name="fldDepth" Type="numeric" Scale="9" />
+    <Property Name="fldStickOut" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_EDM_Pad">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldRFillet_Back" Type="numeric" Scale="9" />
+    <Property Name="fldAngStart_Web" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_Flange">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldExists" Type="bit" />
+    <Property Name="fldD" Type="numeric" Scale="9" />
+    <Property Name="fldWid" Type="numeric" Scale="9" />
+    <Property Name="fldDimStart_Front" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_FlexurePivot">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldWeb_T" Type="numeric" Scale="9" />
+    <Property Name="fldWeb_H" Type="numeric" Scale="9" />
+    <Property Name="fldWeb_RFillet" Type="numeric" Scale="9" />
+    <Property Name="fldGapEDM" Type="numeric" Scale="9" />
+    <Property Name="fldRot_Stiff" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_MillRelief">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldExists" Type="bit" />
+    <Property Name="fldD_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldEDMRelief_Front" Type="numeric" Scale="9" />
+    <Property Name="fldEDMRelief_Back" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_Mount">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldHoles_GoThru" Type="bit" />
+    <Property Name="fldHoles_Bolting" Type="varchar" MaxLength="50" />
+    <Property Name="fldFixture_Candidates_Chosen_Front" Type="bit" />
+    <Property Name="fldFixture_Candidates_Chosen_Back" Type="bit" />
+    <Property Name="fldHoles_Thread_Depth_Front" Type="numeric" Scale="9" />
+    <Property Name="fldHoles_Thread_Depth_Back" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_Mount_Fixture">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPartNo" Type="varchar" MaxLength="50" />
+    <Property Name="fldDBC" Type="numeric" Scale="9" />
+    <Property Name="fldD_Finish" Type="numeric" Scale="9" />
+    <Property Name="fldHolesCount" Type="int" />
+    <Property Name="fldHolesEquispaced" Type="bit" />
+    <Property Name="fldHolesAngStart" Type="numeric" Scale="9" />
+    <Property Name="fldHolesAngStart_Comp_Chosen" Type="bit" />
+    <Property Name="fldHolesAngOther1" Type="numeric" Scale="9" />
+    <Property Name="fldHolesAngOther2" Type="numeric" Scale="9" />
+    <Property Name="fldHolesAngOther3" Type="numeric" Scale="9" />
+    <Property Name="fldHolesAngOther4" Type="numeric" Scale="9" />
+    <Property Name="fldHolesAngOther5" Type="numeric" Scale="9" />
+    <Property Name="fldHolesAngOther6" Type="numeric" Scale="9" />
+    <Property Name="fldHolesAngOther7" Type="numeric" Scale="9" />
+    <Property Name="fldScrew_Spec_Type" Type="varchar" MaxLength="50" />
+    <Property Name="fldScrew_Spec_D_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldScrew_Spec_L" Type="numeric" Scale="9" />
+    <Property Name="fldScrew_Spec_Mat" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_OilInlet">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldOrifice_Count" Type="int" />
+    <Property Name="fldOrifice_D" Type="numeric" Scale="9" />
+    <Property Name="fldCount_MainOilSupply" Type="int" />
+    <Property Name="fldOrifice_StartPos" Type="varchar" MaxLength="50" />
+    <Property Name="fldOrifice_DDrill_CBore" Type="numeric" Scale="9" />
+    <Property Name="fldOrifice_Loc_FrontFace" Type="numeric" Scale="9" />
+    <Property Name="fldOrifice_L" Type="numeric" Scale="9" />
+    <Property Name="fldOrifice_AngStart_BDV" Type="numeric" Scale="9" />
+    <Property Name="fldAnnulus_Exists" Type="bit" />
+    <Property Name="fldAnnulus_D" Type="numeric" Scale="9" />
+    <Property Name="fldAnnulus_Loc_Back" Type="numeric" Scale="9" />
+    <Property Name="fldAnnulus_L" Type="numeric" Scale="9" />
+    <Property Name="fldOrifice_Dist_Holes" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_Pad">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldCount" Type="int" />
+    <Property Name="fldL" Type="numeric" Scale="9" />
+    <Property Name="fldPivot_Offset" Type="numeric" Scale="9" />
+    <Property Name="fldPivot_AngStart" Type="numeric" Scale="9" />
+    <Property Name="fldT_Lead" Type="numeric" Scale="9" />
+    <Property Name="fldT_Pivot" Type="numeric" Scale="9" />
+    <Property Name="fldT_Trail" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_PerformData">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPower_HP" Type="numeric" Scale="9" />
+    <Property Name="fldFlowReqd_gpm" Type="numeric" Scale="9" />
+    <Property Name="fldTempRise_F" Type="numeric" Scale="9" />
+    <Property Name="fldTFilm_Min" Type="numeric" Scale="9" />
+    <Property Name="fldPadMax_Temp" Type="numeric" Scale="9" />
+    <Property Name="fldPadMax_Press" Type="numeric" Scale="9" />
+    <Property Name="fldPadMax_Rot" Type="numeric" Scale="9" />
+    <Property Name="fldPadMax_Load" Type="numeric" Scale="9" />
+    <Property Name="fldPadMax_Stress" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_SL">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldScrew_Spec_UnitSystem" Type="varchar" MaxLength="50" />
+    <Property Name="fldScrew_Spec_Type" Type="varchar" MaxLength="50" />
+    <Property Name="fldScrew_Spec_D_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldScrew_Spec_Pitch" Type="numeric" Scale="9" />
+    <Property Name="fldScrew_Spec_L" Type="numeric" Scale="9" />
+    <Property Name="fldScrew_Spec_Mat" Type="varchar" MaxLength="50" />
+    <Property Name="fldLScrew_Spec_Loc_Center" Type="numeric" Scale="9" />
+    <Property Name="fldLScrew_Spec_Loc_Front" Type="numeric" Scale="9" />
+    <Property Name="fldRScrew_Spec_Loc_Center" Type="numeric" Scale="9" />
+    <Property Name="fldRScrew_Spec_Loc_Front" Type="numeric" Scale="9" />
+    <Property Name="fldThread_Depth" Type="numeric" Scale="9" />
+    <Property Name="fldCBore_Depth" Type="numeric" Scale="9" />
+    <Property Name="fldDowel_Spec_UnitSystem" Type="varchar" MaxLength="50" />
+    <Property Name="fldDowel_Spec_Type" Type="varchar" MaxLength="50" />
+    <Property Name="fldDowel_Spec_D_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldDowel_Spec_L" Type="numeric" Scale="9" />
+    <Property Name="fldDowel_Spec_Mat" Type="varchar" MaxLength="50" />
+    <Property Name="fldLDowel_Spec_Loc_Center" Type="numeric" Scale="9" />
+    <Property Name="fldLDowel_Spec_Loc_Front" Type="numeric" Scale="9" />
+    <Property Name="fldRDowel_Spec_Loc_Center" Type="numeric" Scale="9" />
+    <Property Name="fldRDowel_Spec_Loc_Front" Type="numeric" Scale="9" />
+    <Property Name="fldDowel_Depth" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Bearing_Radial_FP_TempSensor">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldExists" Type="bit" />
+    <Property Name="fldCanLength" Type="numeric" Scale="9" />
+    <Property Name="fldCount" Type="int" />
+    <Property Name="fldLoc" Type="varchar" MaxLength="50" />
+    <Property Name="fldD" Type="numeric" Scale="9" />
+    <Property Name="fldDepth" Type="numeric" Scale="9" />
+    <Property Name="fldAngStart" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Details">
+    <Key>
+      <PropertyRef Name="fldNo" />
+      <PropertyRef Name="fldNo_Suffix" />
+    </Key>
+    <Property Name="fldNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldNo_Suffix" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="fldStatus" Type="varchar" MaxLength="50" />
+    <Property Name="fldCustomer_Name" Type="varchar(max)" />
+    <Property Name="fldCustomer_MachineDesc" Type="varchar(max)" />
+    <Property Name="fldCustomer_PartNo" Type="varchar(max)" />
+    <Property Name="fldUnitSystem" Type="varchar" MaxLength="50" />
+    <Property Name="fldAssyDwg_No" Type="varchar" MaxLength="50" />
+    <Property Name="fldAssyDwg_No_Suffix" Type="varchar" MaxLength="10" />
+    <Property Name="fldAssyDwg_Ref" Type="varchar" MaxLength="50" />
+    <Property Name="fldEngg_Name" Type="varchar" MaxLength="50" />
+    <Property Name="fldEngg_Initials" Type="varchar" MaxLength="50" />
+    <Property Name="fldEngg_Date" Type="datetime" />
+    <Property Name="fldDesignedBy_Name" Type="varchar" MaxLength="50" />
+    <Property Name="fldDesignedBy_Initials" Type="varchar" MaxLength="50" />
+    <Property Name="fldDesignedBy_Date" Type="datetime" />
+    <Property Name="fldCheckedBy_Name" Type="varchar" MaxLength="50" />
+    <Property Name="fldCheckedBy_Initials" Type="varchar" MaxLength="50" />
+    <Property Name="fldCheckedBy_Date" Type="datetime" />
+    <Property Name="fldDate_Closing" Type="datetime" />
+    <Property Name="fldFilePath_Project" Type="varchar(max)" />
+    <Property Name="fldFilePath_DesignTbls_SWFiles" Type="varchar(max)" />
+    <Property Name="fldFileModified_CompleteAssy" Type="bit" />
+    <Property Name="fldFileModified_Radial_Part" Type="bit" />
+    <Property Name="fldFileModified_Radial_BlankAssy" Type="bit" />
+    <Property Name="fldFileModified_EndTB_Part" Type="bit" />
+    <Property Name="fldFileModified_EndTB_Assy" Type="bit" />
+    <Property Name="fldFileModified_EndSeal_Part" Type="bit" />
+    <Property Name="fldFileModification_Notes" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_MountHoles">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldDepth_CBore" Type="numeric" Scale="9" />
+    <Property Name="fldThread_Thru" Type="bit" />
+    <Property Name="fldDepth_Thread" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_Seal">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldLiningT" Type="numeric" Scale="9" />
+    <Property Name="fldTempSensor_D_ExitHole" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_Seal_Blade">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldCount" Type="int" />
+    <Property Name="fldT" Type="numeric" Scale="9" />
+    <Property Name="fldAngTaper" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_Seal_DrainHoles">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldAnnulus_Ratio_L_H" Type="numeric" Scale="9" />
+    <Property Name="fldAnnulus_D" Type="numeric" Scale="9" />
+    <Property Name="fldD_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldCount" Type="int" />
+    <Property Name="fldAngStart" Type="numeric" Scale="9" />
+    <Property Name="fldAngBet" Type="numeric" Scale="9" />
+    <Property Name="fldAngExit" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_Seal_WireClipHoles">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldExists" Type="bit" />
+    <Property Name="fldCount" Type="int" />
+    <Property Name="fldDBC" Type="numeric" Scale="9" />
+    <Property Name="fldUnitSystem" Type="varchar" MaxLength="50" />
+    <Property Name="fldThread_Dia_Desig" Type="varchar" MaxLength="50" />
+    <Property Name="fldThread_Pitch" Type="numeric" Scale="9" />
+    <Property Name="fldThread_Depth" Type="numeric" Scale="9" />
+    <Property Name="fldAngStart" Type="numeric" Scale="9" />
+    <Property Name="fldAngOther1" Type="numeric" Scale="9" />
+    <Property Name="fldAngOther2" Type="numeric" Scale="9" />
+    <Property Name="fldAngOther3" Type="numeric" Scale="9" />
+    <Property Name="fldAngOther4" Type="numeric" Scale="9" />
+    <Property Name="fldAngOther5" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldDirectionType" Type="varchar" MaxLength="50" />
+    <Property Name="fldPad_ID" Type="numeric" Scale="9" />
+    <Property Name="fldPad_OD" Type="numeric" Scale="9" />
+    <Property Name="fldLandL" Type="numeric" Scale="9" />
+    <Property Name="fldLiningT_Face" Type="numeric" Scale="9" />
+    <Property Name="fldLiningT_ID" Type="numeric" Scale="9" />
+    <Property Name="fldPad_Count" Type="int" />
+    <Property Name="fldTaper_Depth_OD" Type="numeric" Scale="9" />
+    <Property Name="fldTaper_Depth_ID" Type="numeric" Scale="9" />
+    <Property Name="fldTaper_Angle" Type="numeric" Scale="9" />
+    <Property Name="fldShroud_Ro" Type="numeric" Scale="9" />
+    <Property Name="fldShroud_Ri" Type="numeric" Scale="9" />
+    <Property Name="fldBackRelief_Reqd" Type="bit" />
+    <Property Name="fldBackRelief_D" Type="numeric" Scale="9" />
+    <Property Name="fldBackRelief_Depth" Type="numeric" Scale="9" />
+    <Property Name="fldBackRelief_Fillet" Type="numeric" Scale="9" />
+    <Property Name="fldDimStart" Type="numeric" Scale="9" />
+    <Property Name="fldLFlange" Type="numeric" Scale="9" />
+    <Property Name="fldFaceOff_Assy" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB_FeedGroove">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldWid" Type="numeric" Scale="9" />
+    <Property Name="fldDepth" Type="numeric" Scale="9" />
+    <Property Name="fldDBC" Type="numeric" Scale="9" />
+    <Property Name="fldDist_Chamf" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB_GCodes">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldD_Desig_T1" Type="varchar" MaxLength="50" />
+    <Property Name="fldD_Desig_T2" Type="varchar" MaxLength="50" />
+    <Property Name="fldD_Desig_T3" Type="varchar" MaxLength="50" />
+    <Property Name="fldD_Desig_T4" Type="varchar" MaxLength="50" />
+    <Property Name="fldOverlap_frac" Type="numeric" Scale="9" />
+    <Property Name="fldFeed_Taperland" Type="numeric" Scale="9" />
+    <Property Name="fldFeed_WeepSlot" Type="numeric" Scale="9" />
+    <Property Name="fldDepth_Backlash" Type="numeric" Scale="9" />
+    <Property Name="fldDepth_Dwell_T" Type="numeric" Scale="9" />
+    <Property Name="fldDepth_WeepSlot_Cut" Type="numeric" Scale="9" />
+    <Property Name="fldFilePath_Dir" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB_PerformData">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPower_HP" Type="numeric" Scale="9" />
+    <Property Name="fldFlowReqd_gpm" Type="numeric" Scale="9" />
+    <Property Name="fldTempRise_F" Type="numeric" Scale="9" />
+    <Property Name="fldTFilm_Min" Type="numeric" Scale="9" />
+    <Property Name="fldUnitLoad" Type="numeric" Scale="9" />
+    <Property Name="fldPadMax_Temp" Type="numeric" Scale="9" />
+    <Property Name="fldPadMax_Press" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfig_TB_WeepSlot">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldWid" Type="numeric" Scale="9" />
+    <Property Name="fldDepth" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_EndConfigs">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+      <PropertyRef Name="fldPosition" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="fldPosition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldType" Type="varchar" MaxLength="50" />
+    <Property Name="fldMat_Base" Type="varchar" MaxLength="50" />
+    <Property Name="fldMat_Lining" Type="varchar" MaxLength="50" />
+    <Property Name="fldDO" Type="numeric" Scale="9" />
+    <Property Name="fldDBore_Range_Min" Type="numeric" Scale="9" />
+    <Property Name="fldDBore_Range_Max" Type="numeric" Scale="9" />
+    <Property Name="fldL" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_OpCond">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="fldSpeed_Range_Min" Type="int" />
+    <Property Name="fldSpeed_Range_Max" Type="int" />
+    <Property Name="fldRot_Directionality" Type="varchar" MaxLength="10" />
+    <Property Name="fldRadial_Load_Range_Min" Type="numeric" Scale="9" />
+    <Property Name="fldRadial_Load_Range_Max" Type="numeric" Scale="9" />
+    <Property Name="fldRadial_LoadAng" Type="numeric" Scale="9" />
+    <Property Name="fldThrust_Load_Range_Front_Min" Type="numeric" Scale="9" />
+    <Property Name="fldThrust_Load_Range_Front_Max" Type="numeric" Scale="9" />
+    <Property Name="fldThrust_Load_Range_Back_Min" Type="numeric" Scale="9" />
+    <Property Name="fldThrust_Load_Range_Back_Max" Type="numeric" Scale="9" />
+    <Property Name="fldOilSupply_Lube_Type" Type="varchar" MaxLength="50" />
+    <Property Name="fldOilSupply_Type" Type="varchar" MaxLength="50" />
+    <Property Name="fldOilSupply_Press" Type="numeric" Scale="9" />
+    <Property Name="fldOilSupply_Temp" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Product">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldBearing_Type" Type="varchar" MaxLength="50" />
+    <Property Name="fldL_Available" Type="numeric" Scale="9" />
+    <Property Name="fldDist_ThrustFace_Front" Type="numeric" Scale="9" />
+    <Property Name="fldDist_ThrustFace_Back" Type="numeric" Scale="9" />
+  </EntityType>
+  <EntityType Name="tblProject_Product_Accessories">
+    <Key>
+      <PropertyRef Name="fldProjectNo" />
+      <PropertyRef Name="fldProjectNo_Suffix" />
+    </Key>
+    <Property Name="fldProjectNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fldProjectNo_Suffix" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="fldTempSensor_Supplied" Type="bit" />
+    <Property Name="fldTempSensor_Name" Type="varchar" MaxLength="50" />
+    <Property Name="fldTempSensor_Count" Type="int" />
+    <Property Name="fldTempSensor_Type" Type="varchar" MaxLength="50" />
+    <Property Name="fldWireClip_Supplied" Type="bit" />
+    <Property Name="fldWireClip_Count" Type="int" />
+    <Property Name="fldWireClip_Size" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblUser">
+    <Key>
+      <PropertyRef Name="fldID" />
+    </Key>
+    <Property Name="fldID" Type="int" Nullable="false" />
+    <Property Name="fldName" Type="varchar(max)" />
+    <Property Name="fldPassword" Type="varchar(max)" />
+    <Property Name="fldInitials" Type="varchar(max)" />
+    <Property Name="fldPrivilege" Type="varchar(max)" />
+  </EntityType>
+</Schema>

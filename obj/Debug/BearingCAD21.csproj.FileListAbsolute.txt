@@ -1,0 +1,99 @@
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD21.csproj.ResolveComReference.cache
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\bin\Debug\BearingCAD21.exe
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\bin\Debug\BearingCAD21.pdb
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\bin\Debug\Microsoft.Office.Interop.Word.xml
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmAccessories.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmBearing.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmCopyProject.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmCreateDataSet.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmFilter.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmGCodes.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmLogIn.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmMain.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmOpCond.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmPassword.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmProject.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmCreateFiles.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmSeal.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmSplash.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmSWModels.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmThrustBearing.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD21.Properties.Resources.resources
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD21.csproj.GenerateResource.Cache
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD21.exe
+E:\Development\Waukesha\BearingCAD\V20_Demo\Project\obj\Debug\BearingCAD21.pdb
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.csproj.ResolveComReference.cache
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.exe
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.pdb
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\bin\Debug\BearingCAD21.exe
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\bin\Debug\BearingCAD21.pdb
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.Properties.Resources.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.csproj.GenerateResource.Cache
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.csproj.ResolveComReference.cache
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.exe
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.pdb
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.Properties.Resources.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.csproj.GenerateResource.Cache
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\bin\Debug\BearingCAD21.exe
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\bin\Debug\BearingCAD21.pdb
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\bin\Debug\Microsoft.Office.Interop.Word.xml
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\bin\Debug\BearingCAD21.exe.config
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmBearing.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmBearingDesignDetails.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmCopyProject.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmCreateDataSet.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmMain.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmOpCond.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmProject.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmSeal.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmSealDesignDetails.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmSplash.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmThrustBearing.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmThrustBearingDesignDetails.resources
+E:\Development\Waukesha\BearingCAD\V21_Demo\Project\obj\Debug\BearingCAD21.csprojResolveAssemblyReference.cache
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\bin\Debug\BearingCAD21.exe.config
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmBearing.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmBearingDesignDetails.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmCreateDataSet.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmMain.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmOpCond.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmProject.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmSeal.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmSealDesignDetails.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmSplash.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmThrustBearing.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Project\obj\Debug\BearingCAD21.frmThrustBearingDesignDetails.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\bin\Debug\BearingCAD21.exe.config
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.csproj.ResolveComReference.cache
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.exe
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.pdb
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.csprojResolveAssemblyReference.cache
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmBearing.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmBearingDesignDetails.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmCopyProject.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmCreateDataSet.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmMain.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmOpCond.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmProject.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmSeal.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmSealDesignDetails.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmSplash.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmThrustBearing.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.frmThrustBearingDesignDetails.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.Properties.Resources.resources
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\obj\Debug\BearingCAD21.csproj.GenerateResource.Cache
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\bin\Debug\BearingCAD21.exe
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\bin\Debug\BearingCAD21.pdb
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\bin\Debug\Lib_Inventor.dll
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Development\Waukesha\Bearing CAD\V21_Demo\Solution\Project\bin\Debug\Lib_Inventor.pdb
