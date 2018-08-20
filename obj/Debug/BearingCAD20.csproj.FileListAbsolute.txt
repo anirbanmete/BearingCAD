@@ -1,0 +1,287 @@
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmAccessories.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmBearing.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmCopyProject.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmFilter.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmLogIn.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmMain.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmOpCond.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmPassword.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmPerformanceDataThrustBearing.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmProject.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmCreateFiles.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmSeal.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmSplash.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmSWModels.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmThrustBearing.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.Properties.Resources.resources
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Development\KMC\BearingCAD\V20_Latest\Project\bin\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20_Latest\Project\bin\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20_Latest\Project\obj\Debug\BearingCAD20.frmGCodes.resources
+C:\Development\KMC\Bearing CAD\V20\Project\bin\Debug\BearingCAD20.exe
+C:\Development\KMC\Bearing CAD\V20\Project\bin\Debug\BearingCAD20.pdb
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmAccessories.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmBearing.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmCopyProject.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmFilter.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmGCodes.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmLogIn.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmMain.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmOpCond.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmPassword.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmPerformanceDataThrustBearing.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmProject.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmCreateFiles.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmSeal.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmSplash.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmSWModels.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearing.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.Properties.Resources.resources
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.exe
+C:\Development\KMC\Bearing CAD\V20\Project\obj\Debug\BearingCAD20.pdb
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.exe
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.pdb
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\ResolveAssemblyReference.cache
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmAccessories.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmBearing.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmCopyProject.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmFilter.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmGCodes.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmLogIn.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmMain.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmOpCond.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmPassword.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmPerformanceDataThrustBearing.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmProject.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmCreateFiles.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSeal.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSplash.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSWModels.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearing.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.Properties.Resources.resources
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\ResGen.read.1.tlog
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Development\KMC\BearingCAD\V20\Project\obj\Debug\ResGen.write.1.tlog
+E:\Development\KMC\BearingCAD\V20\Project\bin\Debug\BearingCAD20.exe
+E:\Development\KMC\BearingCAD\V20\Project\bin\Debug\BearingCAD20.pdb
+E:\Development\KMC\BearingCAD\V20\Project\bin\Debug\nunit.core.dll
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20\Project - Copy\bin\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20\Project - Copy\bin\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmAccessories.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmBearing.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmCopyProject.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmFilter.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmGCodes.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmLogIn.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmMain.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmOpCond.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmPassword.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmProject.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmCreateFiles.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmSeal.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmSplash.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmSWModels.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmThrustBearing.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\BearingCAD20.Properties.Resources.resources
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Development\KMC\BearingCAD\V20\Project - Copy\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Development\KMC\BearingCAD\V20\Project\bin\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmAccessories.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmBearing.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmCopyProject.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmFilter.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmGCodes.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmLogIn.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmMain.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmOpCond.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmPassword.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmProject.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmCreateFiles.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSeal.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSplash.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSWModels.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearing.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.Properties.Resources.resources
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20\Project\bin\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUL13\obj\Debug\Interop.Office.dll
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUL13\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUL13\obj\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUL13\obj\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.csprojResolveAssemblyReference.cache
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmAccessories.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmBearing.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmCopyProject.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmFilter.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmGCodes.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmLogIn.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmMain.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmOpCond.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmPassword.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmProject.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmCreateFiles.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmSeal.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmSplash.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmSWModels.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmThrustBearing.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.Properties.Resources.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.csproj.GenerateResource.Cache
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\bin\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\bin\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\bin\Debug\Office.dll
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\bin\Debug\Office.xml
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_09JUN14\obj\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\bin\Debug\BearingCAD20.exe
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\bin\Debug\BearingCAD20.pdb
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\bin\Debug\Office.dll
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\bin\Debug\Office.xml
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.csprojResolveAssemblyReference.cache
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmAccessories.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmBearing.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmCopyProject.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmFilter.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmGCodes.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmLogIn.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmMain.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmOpCond.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmPassword.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmProject.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmCreateFiles.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmSeal.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmSplash.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmSWModels.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmThrustBearing.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.Properties.Resources.resources
+C:\Development\KMC\BearingCAD\V20\Released Projects\Project_10JUN14\obj\Debug\BearingCAD20.csproj.GenerateResource.Cache
+C:\Development\KMC\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Development\KMC\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Development\KMC\BearingCAD\V20\Project\bin\Debug\Office.dll
+C:\Development\KMC\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Development\KMC\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Development\KMC\BearingCAD\V20\Project\bin\Debug\Office.xml
+C:\Development\KMC\BearingCAD\V20\Project\obj\Debug\BearingCAD20.csproj.GenerateResource.Cache
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.exe
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.pdb
+C:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\BearingCAD20.exe
+C:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\BearingCAD20.pdb
+C:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Office.dll
+C:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Office.xml
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmAccessories.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmBearing.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmCopyProject.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmFilter.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmGCodes.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmLogIn.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmMain.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmOpCond.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmPassword.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmProject.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmCreateFiles.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSeal.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSplash.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSWModels.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearing.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.Properties.Resources.resources
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.csproj.GenerateResource.Cache
+C:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.csprojResolveAssemblyReference.cache
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.exe
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.pdb
+E:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\BearingCAD20.exe
+E:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\BearingCAD20.pdb
+E:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Development\Waukesha\BearingCAD\V20\Project\bin\Debug\Microsoft.Office.Interop.Word.xml
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.csprojResolveAssemblyReference.cache
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmAccessories.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmBearing.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmBearingDesignDetails.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmCopyProject.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmFilter.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmGCodes.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmLogIn.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmMain.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmOpCond.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmPassword.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmPerformDataBearing.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmProject.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmCreateFiles.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSeal.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSealDesignDetails.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSplash.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmSWModels.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearing.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.frmThrustBearingDesignDetails.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.Properties.Resources.resources
+E:\Development\Waukesha\BearingCAD\V20\Project\obj\Debug\BearingCAD20.csproj.GenerateResource.Cache
+D:\Development\Waukesha\Bearing CAD\V20\Released Projects\Project_01DEC15\obj\Debug\BearingCAD20.csproj.ResolveComReference.cache
+D:\Development\Waukesha\Bearing CAD\V20\Released Projects\Project_01DEC15\obj\Debug\BearingCAD20.exe
+D:\Development\Waukesha\Bearing CAD\V20\Released Projects\Project_01DEC15\obj\Debug\BearingCAD20.pdb
